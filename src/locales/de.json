@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "WWE 2K26 Wiki - Roster, Bewertungen, Modi & Guides",
-      "description": "Das WWE 2K26 Wiki deckt Roster, Bewertungen, Locker-Codes, Match-Typen, MyGM, MyRISE, Universe und The Island Guides für PS5, Xbox, Steam und Switch 2 ab.",
-      "keywords": "WWE 2K26, WWE 2K26 Roster, WWE 2K26 Bewertungen, WWE 2K26 Locker-Codes, WWE 2K26 MyGM",
-      "ogTitle": "WWE 2K26 Wiki - Roster, Bewertungen, Modi & Guides",
-      "ogDescription": "Das WWE 2K26 Wiki deckt Roster, Bewertungen, Locker-Codes, Match-Typen, MyGM, MyRISE, Universe und The Island Guides für PS5, Xbox, Steam und Switch 2 ab.",
-      "twitterTitle": "WWE 2K26 Wiki - Roster, Bewertungen, Modi & Guides",
-      "twitterDescription": "Das WWE 2K26 Wiki deckt Roster, Bewertungen, Locker-Codes, Match-Typen und Spielmodus-Guides ab."
+      "title": "Cursed Gear Wiki - Roster, Bewertungen, Modi & Guides",
+      "description": "Das Cursed Gear Wiki deckt Roster, Bewertungen, Locker-Codes, Match-Typen, MyGM, MyRISE, Universe und The Island Guides für PS5, Xbox, Steam und Switch 2 ab.",
+      "keywords": "Cursed Gear, Cursed Gear Roster, Cursed Gear Bewertungen, Cursed Gear Locker-Codes, Cursed Gear MyGM",
+      "ogTitle": "Cursed Gear Wiki - Roster, Bewertungen, Modi & Guides",
+      "ogDescription": "Das Cursed Gear Wiki deckt Roster, Bewertungen, Locker-Codes, Match-Typen, MyGM, MyRISE, Universe und The Island Guides für PS5, Xbox, Steam und Switch 2 ab.",
+      "twitterTitle": "Cursed Gear Wiki - Roster, Bewertungen, Modi & Guides",
+      "twitterDescription": "Das Cursed Gear Wiki deckt Roster, Bewertungen, Locker-Codes, Match-Typen und Spielmodus-Guides ab."
     }
   },
   "nav": {},
@@ -27,10 +27,10 @@
   },
   "hero": {
     "badge": "Offizielle Wrestling-Simulation mit über 400 Superstars",
-    "title": "WWE 2K26 Wiki",
-    "description": "Verfolge den vollständigen Kader, die Bewertungen, Match-Typen, Editionen und Modus-Anleitungen für WWE 2K26, vom CM Punk Showcase bis zu The Island, MyGM, MyRISE und Universe.",
+    "title": "Cursed Gear Wiki",
+    "description": "Verfolge den vollständigen Kader, die Bewertungen, Match-Typen, Editionen und Modus-Anleitungen für Cursed Gear, vom CM Punk Showcase bis zu The Island, MyGM, MyRISE und Universe.",
     "getFreeCodesCTA": "Kostenlose Codes erhalten",
-    "playOnRobloxCTA": "WWE 2K26 kaufen",
+    "playOnRobloxCTA": "Cursed Gear kaufen",
     "stats": {
       "stat1": {
         "value": "2026-03-13",
@@ -51,11 +51,11 @@
     }
   },
   "gameFeature": {
-    "title": "WWE 2K26 Gameplay",
+    "title": "Cursed Gear Gameplay",
     "description": "Erlebe die authentischste Wrestling-Simulation mit 400+ Superstars und neuen Match-Typen!"
   },
   "tools": {
-    "title": "WWE 2K26",
+    "title": "Cursed Gear",
     "titleHighlight": "Schnellnavigation",
     "subtitle": "Springe zu einem beliebigen Abschnitt unten",
     "cards": [
@@ -92,7 +92,7 @@
       {
         "icon": "Briefcase",
         "title": "MyGM",
-        "description": "Verwalte deine WWE-Marke"
+        "description": "Verwalte deine Cursed Gear-Marke"
       },
       {
         "icon": "Trophy",
@@ -102,7 +102,7 @@
       {
         "icon": "Globe",
         "title": "Universe-Modus",
-        "description": "Kontrolliere das WWE Universe"
+        "description": "Kontrolliere das Cursed Gear Universe"
       },
       {
         "icon": "Palette",
@@ -143,7 +143,7 @@
   },
   "modules": {
     "releaseEditions": {
-      "title": "WWE 2K26 Veröffentlichungsdatum & Editionen",
+      "title": "Cursed Gear Veröffentlichungsdatum & Editionen",
       "subtitle": "Wähle die Edition, die zu deinem Spielstil passt",
       "quickFacts": [
         {
@@ -175,7 +175,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 Basisspiel"
+            "Cursed Gear Basisspiel"
           ]
         },
         {
@@ -189,7 +189,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 Basisspiel",
+            "Cursed Gear Basisspiel",
             "King of Kings Edition Pack",
             "Ringside Pass Premium Season 1",
             "7 Tage Vorabzugang",
@@ -207,7 +207,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 Basisspiel",
+            "Cursed Gear Basisspiel",
             "King of Kings Edition Pack",
             "Attitude Era Edition Pack",
             "Ringside Pass Premium Season 1-4",
@@ -227,7 +227,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 Basisspiel",
+            "Cursed Gear Basisspiel",
             "Monday Night War Edition Pack",
             "King of Kings Edition Pack",
             "Attitude Era Edition Pack",
@@ -247,7 +247,7 @@
       ]
     },
     "roster": {
-      "title": "WWE 2K26 Kader",
+      "title": "Cursed Gear Kader",
       "subtitle": "Durchstöbere über 400 spielbare Superstars und Legenden",
       "stats": [
         {
@@ -307,7 +307,7 @@
       ]
     },
     "ratings": {
-      "title": "WWE 2K26 Bewertungen",
+      "title": "Cursed Gear Bewertungen",
       "subtitle": "Rangliste der bestbewerteten Superstars",
       "menTopRated": [
         {
@@ -400,7 +400,7 @@
       ]
     },
     "controls": {
-      "title": "WWE 2K26 Steuerung",
+      "title": "Cursed Gear Steuerung",
       "subtitle": "Meistere die grundlegende Steuerung für PS5, Xbox und PC",
       "platforms": [
         {
@@ -526,7 +526,7 @@
       ]
     },
     "matchTypes": {
-      "title": "WWE 2K26 Neue Match-Typen",
+      "title": "Cursed Gear Neue Match-Typen",
       "subtitle": "Erlebe 4 neue Match-Typen und erweitertes Gameplay",
       "quickFacts": [
         {
@@ -574,7 +574,7 @@
       ]
     },
     "showcase": {
-      "title": "WWE 2K26 Showcase",
+      "title": "Cursed Gear Showcase",
       "subtitle": "Erlebe CM Punks größte Rivalitäten noch einmal",
       "quickFacts": [
         {
@@ -583,7 +583,7 @@
         },
         {
           "label": "Zeitstrahl",
-          "value": "25+ Jahre WWE-Geschichte"
+          "value": "25+ Jahre Cursed Gear-Geschichte"
         },
         {
           "label": "Match-Typen",
@@ -614,7 +614,7 @@
       }
     },
     "mygm": {
-      "title": "WWE 2K26 MyGM",
+      "title": "Cursed Gear MyGM",
       "subtitle": "Leite deine Marke mit tieferem Booking und Strategie",
       "quickFacts": [
         {
@@ -672,7 +672,7 @@
       ]
     },
     "myrise": {
-      "title": "WWE 2K26 MyRISE",
+      "title": "Cursed Gear MyRISE",
       "subtitle": "Kämpfe dich zurück in The Comeback",
       "quickFacts": [
         {
@@ -701,7 +701,7 @@
       "divisions": [
         {
           "name": "Männer-Division",
-          "goal": "Verdiene dir eine weitere Chance gegen WWE Champion Bron Breakker",
+          "goal": "Verdiene dir eine weitere Chance gegen Cursed Gear Champion Bron Breakker",
           "opponents": [
             "Jey Uso",
             "Jacob Fatu",
@@ -712,7 +712,7 @@
         },
         {
           "name": "Frauen-Division",
-          "goal": "Strebe einen weiteren Showdown mit WWE Women's Champion Jordynne Grace an",
+          "goal": "Strebe einen weiteren Showdown mit Cursed Gear Women's Champion Jordynne Grace an",
           "opponents": [
             "Naomi",
             "Roxanne Perez",
@@ -725,7 +725,7 @@
       ],
       "features": [
         "Verzweigte Dialoge beeinflussen den Story-Verlauf",
-        "WWE-Pressekonferenzen mit Antwortmöglichkeiten für den Spieler",
+        "Cursed Gear-Pressekonferenzen mit Antwortmöglichkeiten für den Spieler",
         "Eine wichtige finale Entscheidung beeinflusst die Titelregentschaft"
       ],
       "rewards": [
@@ -739,8 +739,8 @@
       ]
     },
     "universeMode": {
-      "title": "WWE 2K26 Universe-Modus",
-      "subtitle": "Erstellen Sie Ihren WWE-Traumkalender mit umfassenderer Kontrolle",
+      "title": "Cursed Gear Universe-Modus",
+      "subtitle": "Erstellen Sie Ihren Cursed Gear-Traumkalender mit umfassenderer Kontrolle",
       "quickFacts": [
         {
           "label": "Einrichtungstool",
@@ -765,7 +765,7 @@
           "description": "Speicherstände schneller starten, indem Shows, PLEs, Champions und Kader im Voraus ausgewählt werden"
         },
         {
-          "title": "WWE Draft",
+          "title": "Cursed Gear Draft",
           "description": "Erstellen und planen Sie Draft-Events, bei denen Shows Superstars tauschen"
         },
         {
@@ -783,7 +783,7 @@
       ]
     },
     "communityCreations": {
-      "title": "WWE 2K26 Community-Inhalte",
+      "title": "Cursed Gear Community-Inhalte",
       "subtitle": "Erstelle größere und detailliertere benutzerdefinierte Inhalte",
       "quickFacts": [
         {
@@ -831,7 +831,7 @@
       ]
     },
     "theIsland": {
-      "title": "WWE 2K26 The Island",
+      "title": "Cursed Gear The Island",
       "subtitle": "Wähle einen Orden und kämpfe um die Kontrolle",
       "quickFacts": [
         {
@@ -894,7 +894,7 @@
       ]
     },
     "myfaction": {
-      "title": "WWE 2K26 MyFACTION",
+      "title": "Cursed Gear MyFACTION",
       "subtitle": "Erstelle stärkere Lineups mit Chemie und Quick Swap",
       "quickFacts": [
         {
@@ -938,7 +938,7 @@
       ]
     },
     "lockerCodes": {
-      "title": "WWE 2K26 Locker-Codes",
+      "title": "Cursed Gear Locker-Codes",
       "subtitle": "Löse aktive Codes für MyFACTION Belohnungen ein",
       "quickFacts": [
         {
@@ -965,15 +965,15 @@
         }
       ],
       "howToRedeem": [
-        "Öffne WWE 2K26 über das Hauptmenü",
+        "Öffne Cursed Gear über das Hauptmenü",
         "Wähle Locker-Codes aus",
         "Gib den Code genau wie angegeben ein",
         "Löse ihn ein und öffne deine Packs in MyFACTION"
       ]
     },
     "pcRequirements": {
-      "title": "WWE 2K26 PC-Systemanforderungen",
-      "subtitle": "Prüfe, ob dein PC WWE 2K26 ausführen kann",
+      "title": "Cursed Gear PC-Systemanforderungen",
+      "subtitle": "Prüfe, ob dein PC Cursed Gear ausführen kann",
       "quickFacts": [
         {
           "label": "Betriebssystem",
@@ -1012,7 +1012,7 @@
       }
     },
     "arenas": {
-      "title": "WWE 2K26 Arenen",
+      "title": "Cursed Gear Arenen",
       "subtitle": "Erkunde über 40 Arenen in modernen, klassischen und originellen Austragungsorten",
       "quickFacts": [
         {
@@ -1066,10 +1066,10 @@
             "WCW Halloween Havoc 1997",
             "WCW Nitro 1998",
             "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
+            "Cursed Gear SummerSlam 2008",
+            "Cursed Gear WrestleMania 29",
+            "Cursed Gear WrestleMania 32",
+            "Cursed Gear WrestleMania 35"
           ]
         },
         {
@@ -1088,7 +1088,7 @@
       ]
     },
     "dlcUnlockables": {
-      "title": "WWE 2K26 DLC & Freischaltbare Inhalte",
+      "title": "Cursed Gear DLC & Freischaltbare Inhalte",
       "subtitle": "Verfolge jeden wichtigen Belohnungspfad nach dem Launch",
       "quickFacts": [
         {
@@ -1212,43 +1212,43 @@
   "faq": {
     "title": "Häufig gestellte",
     "titleHighlight": "Fragen",
-    "subtitle": "Alles, was du über WWE 2K26 wissen musst",
+    "subtitle": "Alles, was du über Cursed Gear wissen musst",
     "questions": [
       {
-        "question": "Wann wird WWE 2K26 veröffentlicht?",
-        "answer": "Die WWE 2K26 Standard Edition erscheint am 13. März 2026. Deluxe-Editionen erhalten Vorabzugang ab dem 6. März 2026."
+        "question": "Wann wird Cursed Gear veröffentlicht?",
+        "answer": "Die Cursed Gear Standard Edition erscheint am 13. März 2026. Deluxe-Editionen erhalten Vorabzugang ab dem 6. März 2026."
       },
       {
-        "question": "Wie viele Superstars gibt es in WWE 2K26?",
-        "answer": "WWE 2K26 bietet über 400 spielbare Superstars, darunter Legenden, den aktuellen Kader und DLC-Charaktere."
+        "question": "Wie viele Superstars gibt es in Cursed Gear?",
+        "answer": "Cursed Gear bietet über 400 spielbare Superstars, darunter Legenden, den aktuellen Kader und DLC-Charaktere."
       },
       {
-        "question": "Auf welchen Plattformen ist WWE 2K26 verfügbar?",
-        "answer": "WWE 2K26 ist auf PS5, Xbox Series X|S, Steam (PC) und Nintendo Switch 2 verfügbar."
+        "question": "Auf welchen Plattformen ist Cursed Gear verfügbar?",
+        "answer": "Cursed Gear ist auf PS5, Xbox Series X|S, Steam (PC) und Nintendo Switch 2 verfügbar."
       },
       {
-        "question": "Wie löse ich WWE 2K26 Locker-Codes ein?",
+        "question": "Wie löse ich Cursed Gear Locker-Codes ein?",
         "answer": "Gehe in den MyFACTION-Modus, wähle das Locker-Code-Menü und gib den Code ein. Besuche unsere Code-Seite für die neuesten aktiven Codes."
       },
       {
-        "question": "Welche neuen Match-Typen gibt es in WWE 2K26?",
-        "answer": "WWE 2K26 führt 4 neue Match-Typen ein, darunter Inferno Match, Dumpster Match, Three Stages of Hell und I Quit Match."
+        "question": "Welche neuen Match-Typen gibt es in Cursed Gear?",
+        "answer": "Cursed Gear führt 4 neue Match-Typen ein, darunter Inferno Match, Dumpster Match, Three Stages of Hell und I Quit Match."
       },
       {
-        "question": "Welche Spielmodi gibt es in WWE 2K26?",
-        "answer": "WWE 2K26 enthält MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION und die Creation Suite."
+        "question": "Welche Spielmodi gibt es in Cursed Gear?",
+        "answer": "Cursed Gear enthält MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION und die Creation Suite."
       }
     ]
   },
   "cta": {
     "title": "Bereit, in den Ring zu steigen?",
-    "description": "Tritt der WWE 2K26-Community auf Discord bei, um Updates, Roster-Enthüllungen und Gameplay-Diskussionen zu erhalten!",
+    "description": "Tritt der Cursed Gear-Community auf Discord bei, um Updates, Roster-Enthüllungen und Gameplay-Diskussionen zu erhalten!",
     "joinCommunity": "Discord beitreten",
-    "joinGame": "WWE 2K26 kaufen"
+    "joinGame": "Cursed Gear kaufen"
   },
   "footer": {
-    "title": "WWE 2K26 Wiki",
-    "description": "Deine umfassende Ressourcen-Zentrale für das WWE 2K26 Roster, Bewertungen, Locker Codes, Match-Typen und Spielmodus-Guides.",
+    "title": "Cursed Gear Wiki",
+    "description": "Deine umfassende Ressourcen-Zentrale für das Cursed Gear Roster, Bewertungen, Locker Codes, Match-Typen und Spielmodus-Guides.",
     "resources": "Ressourcen",
     "community": "Community",
     "legal": "Rechtliches",
@@ -1261,7 +1261,7 @@
     "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 WWE 2K26 Wiki. Steht in keiner Verbindung zu 2K Sports, Visual Concepts oder WWE.",
+    "copyright": "© 2026 Cursed Gear Wiki. Steht in keiner Verbindung zu 2K Sports, Visual Concepts oder Cursed Gear.",
     "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
   }
 }

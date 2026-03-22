@@ -12,14 +12,9 @@ const HeroStats = lazy(() => import('@/components/home/HeroStats'))
 const FAQSection = lazy(() => import('@/components/home/FAQSection'))
 const CTASection = lazy(() => import('@/components/home/CTASection'))
 
-const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
-  <div className={`${height} bg-white/5 border border-border rounded-xl animate-pulse flex items-center justify-center`}>
-    <div className="text-muted-foreground">Loading...</div>
-  </div>
-)
-
 export default function HomePage() {
   const t = useMessages() as any
+  const loadingText = t.common?.loading || 'Loading Cursed Gear content...'
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cursedgear.wiki'
 
   const structuredData = {
@@ -173,7 +168,13 @@ export default function HomePage() {
             </div>
           </div>
 
-          <Suspense fallback={<LoadingPlaceholder height="h-32" />}>
+          <Suspense
+            fallback={
+              <div className="h-32 bg-white/5 border border-border rounded-xl animate-pulse flex items-center justify-center">
+                <div className="text-muted-foreground">{loadingText}</div>
+              </div>
+            }
+          >
             <HeroStats stats={Object.values(t.hero.stats)} />
           </Suspense>
         </div>
@@ -490,7 +491,13 @@ export default function HomePage() {
         )
       })}
 
-      <Suspense fallback={<LoadingPlaceholder />}>
+      <Suspense
+        fallback={
+          <div className="h-64 bg-white/5 border border-border rounded-xl animate-pulse flex items-center justify-center">
+            <div className="text-muted-foreground">{loadingText}</div>
+          </div>
+        }
+      >
         <FAQSection
           title={t.faq.title}
           titleHighlight={t.faq.titleHighlight}
@@ -499,7 +506,13 @@ export default function HomePage() {
         />
       </Suspense>
 
-      <Suspense fallback={<LoadingPlaceholder />}>
+      <Suspense
+        fallback={
+          <div className="h-64 bg-white/5 border border-border rounded-xl animate-pulse flex items-center justify-center">
+            <div className="text-muted-foreground">{loadingText}</div>
+          </div>
+        }
+      >
         <CTASection
           title={t.cta.title}
           description={t.cta.description}

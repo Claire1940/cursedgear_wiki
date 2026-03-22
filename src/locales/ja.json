@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
-      "description": "WWE 2K26 Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
-      "keywords": "WWE 2K26, WWE 2K26 ロースター, WWE 2K26 レーティング, WWE 2K26 ロッカーコード, WWE 2K26 MyGM",
-      "ogTitle": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
-      "ogDescription": "WWE 2K26 Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
-      "twitterTitle": "WWE 2K26 Wiki - ロースター、レーティング、モード、ガイド",
-      "twitterDescription": "WWE 2K26 Wikiでは、ロースター、レーティング、ロッカーコード、試合形式、ゲームモードのガイドを網羅しています。"
+      "title": "Cursed Gear Wiki - ロースター、レーティング、モード、ガイド",
+      "description": "Cursed Gear Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
+      "keywords": "Cursed Gear, Cursed Gear ロースター, Cursed Gear レーティング, Cursed Gear ロッカーコード, Cursed Gear MyGM",
+      "ogTitle": "Cursed Gear Wiki - ロースター、レーティング、モード、ガイド",
+      "ogDescription": "Cursed Gear Wikiでは、PS5、Xbox、Steam、Switch 2向けのロースター、レーティング、ロッカーコード、試合形式、MyGM、MyRISE、Universe、The Islandのガイドを網羅しています。",
+      "twitterTitle": "Cursed Gear Wiki - ロースター、レーティング、モード、ガイド",
+      "twitterDescription": "Cursed Gear Wikiでは、ロースター、レーティング、ロッカーコード、試合形式、ゲームモードのガイドを網羅しています。"
     }
   },
   "nav": {},
@@ -27,10 +27,10 @@
   },
   "hero": {
     "badge": "400人以上のスーパースターを収録した公式レスリングシミュレーター",
-    "title": "WWE 2K26 Wiki",
-    "description": "CM Punk ShowcaseからThe Island、MyGM、MyRISE、Universeまで、WWE 2K26の全ロースター、評価、試合形式、エディション、モードガイドを網羅。",
+    "title": "Cursed Gear Wiki",
+    "description": "CM Punk ShowcaseからThe Island、MyGM、MyRISE、Universeまで、Cursed Gearの全ロースター、評価、試合形式、エディション、モードガイドを網羅。",
     "getFreeCodesCTA": "無料コードを入手",
-    "playOnRobloxCTA": "WWE 2K26を購入",
+    "playOnRobloxCTA": "Cursed Gearを購入",
     "stats": {
       "stat1": {
         "value": "2026-03-13",
@@ -51,11 +51,11 @@
     }
   },
   "gameFeature": {
-    "title": "WWE 2K26 ゲームプレイ",
+    "title": "Cursed Gear ゲームプレイ",
     "description": "400人以上のスーパースターと新しいマッチタイプで、最もリアルなレスリングシミュレーションを体験しよう！"
   },
   "tools": {
-    "title": "WWE 2K26",
+    "title": "Cursed Gear",
     "titleHighlight": "クイックナビゲーション",
     "subtitle": "以下のセクションへ移動",
     "cards": [
@@ -92,7 +92,7 @@
       {
         "icon": "Briefcase",
         "title": "MyGM",
-        "description": "WWEブランドを運営"
+        "description": "Cursed Gearブランドを運営"
       },
       {
         "icon": "Trophy",
@@ -102,7 +102,7 @@
       {
         "icon": "Globe",
         "title": "ユニバースモード",
-        "description": "WWEユニバースをコントロール"
+        "description": "Cursed Gearユニバースをコントロール"
       },
       {
         "icon": "Palette",
@@ -143,7 +143,7 @@
   },
   "modules": {
     "releaseEditions": {
-      "title": "WWE 2K26 Release Date & Editions",
+      "title": "Cursed Gear Release Date & Editions",
       "subtitle": "Choose the edition that fits your play style",
       "quickFacts": [
         {
@@ -175,7 +175,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game"
+            "Cursed Gear base game"
           ]
         },
         {
@@ -189,7 +189,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Cursed Gear base game",
             "King of Kings Edition Pack",
             "Ringside Pass Premium Season 1",
             "7-Day Early Access",
@@ -207,7 +207,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Cursed Gear base game",
             "King of Kings Edition Pack",
             "Attitude Era Edition Pack",
             "Ringside Pass Premium Season 1-4",
@@ -227,7 +227,7 @@
             "Switch 2"
           ],
           "includes": [
-            "WWE 2K26 base game",
+            "Cursed Gear base game",
             "Monday Night War Edition Pack",
             "King of Kings Edition Pack",
             "Attitude Era Edition Pack",
@@ -247,7 +247,7 @@
       ]
     },
     "roster": {
-      "title": "WWE 2K26 ロースター",
+      "title": "Cursed Gear ロースター",
       "subtitle": "400人以上のプレイ可能なスーパースターとレジェンドをチェック",
       "stats": [
         {
@@ -307,7 +307,7 @@
       ]
     },
     "ratings": {
-      "title": "WWE 2K26 レーティング",
+      "title": "Cursed Gear レーティング",
       "subtitle": "最高評価のスーパースターランキング",
       "menTopRated": [
         {
@@ -400,7 +400,7 @@
       ]
     },
     "controls": {
-      "title": "WWE 2K26 操作方法",
+      "title": "Cursed Gear 操作方法",
       "subtitle": "PS5、Xbox、PCの基本操作をマスターしよう",
       "platforms": [
         {
@@ -526,7 +526,7 @@
       ]
     },
     "matchTypes": {
-      "title": "WWE 2K26 新しい試合形式",
+      "title": "Cursed Gear 新しい試合形式",
       "subtitle": "4つの新しい試合形式と拡張されたゲームプレイを体験しよう",
       "quickFacts": [
         {
@@ -574,7 +574,7 @@
       ]
     },
     "showcase": {
-      "title": "WWE 2K26 ショーケース",
+      "title": "Cursed Gear ショーケース",
       "subtitle": "CM Punkの最高のライバル関係を追体験しよう",
       "quickFacts": [
         {
@@ -583,7 +583,7 @@
         },
         {
           "label": "タイムライン",
-          "value": "25年以上のWWEの歴史"
+          "value": "25年以上のCursed Gearの歴史"
         },
         {
           "label": "マッチタイプ",
@@ -614,7 +614,7 @@
       }
     },
     "mygm": {
-      "title": "WWE 2K26 MyGM",
+      "title": "Cursed Gear MyGM",
       "subtitle": "より深化したマッチメイクと戦略で、ブランドを運営しよう",
       "quickFacts": [
         {
@@ -672,7 +672,7 @@
       ]
     },
     "myrise": {
-      "title": "WWE 2K26 MyRISE",
+      "title": "Cursed Gear MyRISE",
       "subtitle": "The Comeback で再起をかけて戦い抜け",
       "quickFacts": [
         {
@@ -701,7 +701,7 @@
       "divisions": [
         {
           "name": "男子部門",
-          "goal": "WWE王者 Bron Breakker への再挑戦権を獲得せよ",
+          "goal": "Cursed Gear王者 Bron Breakker への再挑戦権を獲得せよ",
           "opponents": [
             "Jey Uso",
             "Jacob Fatu",
@@ -712,7 +712,7 @@
         },
         {
           "name": "女子部門",
-          "goal": "WWE女子王者 Jordynne Grace との再対決を目指せ",
+          "goal": "Cursed Gear女子王者 Jordynne Grace との再対決を目指せ",
           "opponents": [
             "Naomi",
             "Roxanne Perez",
@@ -725,7 +725,7 @@
       ],
       "features": [
         "分岐するダイアログがストーリーの進行を左右する",
-        "プレイヤーの選択肢によって反応が変わるWWE記者会見",
+        "プレイヤーの選択肢によって反応が変わるCursed Gear記者会見",
         "王座保持期間に影響を与える重大な最終決断"
       ],
       "rewards": [
@@ -739,8 +739,8 @@
       ]
     },
     "universeMode": {
-      "title": "WWE 2K26 ユニバースモード",
-      "subtitle": "より詳細なコントロールで、理想のWWEカレンダーを構築",
+      "title": "Cursed Gear ユニバースモード",
+      "subtitle": "より詳細なコントロールで、理想のCursed Gearカレンダーを構築",
       "quickFacts": [
         {
           "label": "セットアップツール",
@@ -765,7 +765,7 @@
           "description": "番組、PLE、チャンピオン、ロースターを事前に選択することで、セーブデータをより素早く開始"
         },
         {
-          "title": "WWEドラフト",
+          "title": "Cursed Gearドラフト",
           "description": "番組間でスーパースターをトレードするドラフトイベントを作成・スケジュール"
         },
         {
@@ -783,7 +783,7 @@
       ]
     },
     "communityCreations": {
-      "title": "WWE 2K26 コミュニティ・クリエイション",
+      "title": "Cursed Gear コミュニティ・クリエイション",
       "subtitle": "より大きく、より詳細なカスタムコンテンツを作成",
       "quickFacts": [
         {
@@ -831,7 +831,7 @@
       ]
     },
     "theIsland": {
-      "title": "WWE 2K26 ジ・アイランド",
+      "title": "Cursed Gear ジ・アイランド",
       "subtitle": "オーダーを選び、支配権を懸けて戦え",
       "quickFacts": [
         {
@@ -894,7 +894,7 @@
       ]
     },
     "myfaction": {
-      "title": "WWE 2K26 MyFACTION",
+      "title": "Cursed Gear MyFACTION",
       "subtitle": "ケミストリーとQuick Swapでより強力なラインナップを構築",
       "quickFacts": [
         {
@@ -938,7 +938,7 @@
       ]
     },
     "lockerCodes": {
-      "title": "WWE 2K26 ロッカーコード",
+      "title": "Cursed Gear ロッカーコード",
       "subtitle": "MyFACTION の報酬と引き換えられる有効なコード",
       "quickFacts": [
         {
@@ -965,15 +965,15 @@
         }
       ],
       "howToRedeem": [
-        "メインメニューから WWE 2K26 を開く",
+        "メインメニューから Cursed Gear を開く",
         "ロッカーコードを選択する",
         "表示されている通りにコードを入力する",
         "コードを引き換え、MyFACTION でパックを開封する"
       ]
     },
     "pcRequirements": {
-      "title": "WWE 2K26 PC システム要件",
-      "subtitle": "お使いの PC で WWE 2K26 が動作するか確認してください",
+      "title": "Cursed Gear PC システム要件",
+      "subtitle": "お使いの PC で Cursed Gear が動作するか確認してください",
       "quickFacts": [
         {
           "label": "OS",
@@ -1012,7 +1012,7 @@
       }
     },
     "arenas": {
-      "title": "WWE 2K26 アリーナ",
+      "title": "Cursed Gear アリーナ",
       "subtitle": "モダン、クラシック、オリジナルの会場にわたる40以上のアリーナを探索しよう",
       "quickFacts": [
         {
@@ -1066,10 +1066,10 @@
             "WCW Halloween Havoc 1997",
             "WCW Nitro 1998",
             "WCW Thunder 1998",
-            "WWE SummerSlam 2008",
-            "WWE WrestleMania 29",
-            "WWE WrestleMania 32",
-            "WWE WrestleMania 35"
+            "Cursed Gear SummerSlam 2008",
+            "Cursed Gear WrestleMania 29",
+            "Cursed Gear WrestleMania 32",
+            "Cursed Gear WrestleMania 35"
           ]
         },
         {
@@ -1088,7 +1088,7 @@
       ]
     },
     "dlcUnlockables": {
-      "title": "WWE 2K26 DLCとアンロック要素",
+      "title": "Cursed Gear DLCとアンロック要素",
       "subtitle": "発売後の主要な報酬パスをすべて確認",
       "quickFacts": [
         {
@@ -1212,43 +1212,43 @@
   "faq": {
     "title": "よくある",
     "titleHighlight": "質問",
-    "subtitle": "WWE 2K26について知っておくべきすべてのこと",
+    "subtitle": "Cursed Gearについて知っておくべきすべてのこと",
     "questions": [
       {
-        "question": "WWE 2K26の発売日はいつですか？",
-        "answer": "WWE 2K26の通常版は2026年3月13日に発売されます。デラックスエディションは2026年3月6日から早期アクセスが可能です。"
+        "question": "Cursed Gearの発売日はいつですか？",
+        "answer": "Cursed Gearの通常版は2026年3月13日に発売されます。デラックスエディションは2026年3月6日から早期アクセスが可能です。"
       },
       {
-        "question": "WWE 2K26には何人のスーパースターが収録されていますか？",
-        "answer": "WWE 2K26には、レジェンド、現役ロースター、DLCキャラクターを含む400人以上のプレイ可能なスーパースターが収録されています。"
+        "question": "Cursed Gearには何人のスーパースターが収録されていますか？",
+        "answer": "Cursed Gearには、レジェンド、現役ロースター、DLCキャラクターを含む400人以上のプレイ可能なスーパースターが収録されています。"
       },
       {
-        "question": "WWE 2K26はどのプラットフォームで利用できますか？",
-        "answer": "WWE 2K26は、PS5、Xbox Series X|S、Steam（PC）、Nintendo Switch 2で利用できます。"
+        "question": "Cursed Gearはどのプラットフォームで利用できますか？",
+        "answer": "Cursed Gearは、PS5、Xbox Series X|S、Steam（PC）、Nintendo Switch 2で利用できます。"
       },
       {
-        "question": "WWE 2K26のロッカーコードを引き換えるにはどうすればよいですか？",
+        "question": "Cursed Gearのロッカーコードを引き換えるにはどうすればよいですか？",
         "answer": "MyFACTIONモードに移動し、ロッカーコードメニューを選択してコードを入力してください。最新の有効なコードについては、コードページをご確認ください。"
       },
       {
-        "question": "WWE 2K26の新しい試合形式は何ですか？",
-        "answer": "WWE 2K26では、Inferno Match、Dumpster Match、Three Stages of Hell、I Quit Matchを含む4つの新しい試合形式が導入されています。"
+        "question": "Cursed Gearの新しい試合形式は何ですか？",
+        "answer": "Cursed Gearでは、Inferno Match、Dumpster Match、Three Stages of Hell、I Quit Matchを含む4つの新しい試合形式が導入されています。"
       },
       {
-        "question": "WWE 2K26にはどのようなゲームモードがありますか？",
-        "answer": "WWE 2K26には、MyGM、MyRISE、ユニバースモード、ショーケース（CM Punk）、The Island、MyFACTION、クリエイションスイートが含まれています。"
+        "question": "Cursed Gearにはどのようなゲームモードがありますか？",
+        "answer": "Cursed Gearには、MyGM、MyRISE、ユニバースモード、ショーケース（CM Punk）、The Island、MyFACTION、クリエイションスイートが含まれています。"
       }
     ]
   },
   "cta": {
     "title": "リングに上がる準備はできていますか？",
-    "description": "DiscordのWWE 2K26コミュニティに参加して、最新情報、ロスター公開、ゲームプレイの議論をチェックしましょう！",
+    "description": "DiscordのCursed Gearコミュニティに参加して、最新情報、ロスター公開、ゲームプレイの議論をチェックしましょう！",
     "joinCommunity": "Discordに参加する",
-    "joinGame": "WWE 2K26を購入"
+    "joinGame": "Cursed Gearを購入"
   },
   "footer": {
-    "title": "WWE 2K26 ウィキ",
-    "description": "WWE 2K26のロースター、評価、ロッカーコード、試合形式、ゲームモードガイドを網羅した完全なリソースハブです。",
+    "title": "Cursed Gear ウィキ",
+    "description": "Cursed Gearのロースター、評価、ロッカーコード、試合形式、ゲームモードガイドを網羅した完全なリソースハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
     "legal": "法的情報",
@@ -1261,7 +1261,7 @@
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 WWE 2K26 Wiki. 2K Sports、Visual Concepts、またはWWEとは提携していません。",
+    "copyright": "© 2026 Cursed Gear Wiki. 2K Sports、Visual Concepts、またはCursed Gearとは提携していません。",
     "disclaimer": "非公式のファン作成リソースサイトです。"
   }
 }

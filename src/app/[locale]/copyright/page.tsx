@@ -98,9 +98,9 @@ export default function Copyright() {
               endorsed by, or associated with:
             </p>
             <ul>
-              <li><strong>2K Sports</strong> - Publisher of Cursed Gear</li>
-              <li><strong>Visual Concepts</strong> - Developer of Cursed Gear</li>
-              <li><strong>WWE</strong> - Owner of WWE trademarks and content</li>
+              <li><strong>Roblox Corporation</strong> - Owner of the Roblox platform and trademarks</li>
+              <li><strong>Monad Studios West</strong> - Creator and publisher of Cursed Gear</li>
+              <li><strong>Third-party licensors</strong> - Owners of applicable artwork, logos, or media assets</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -161,7 +161,8 @@ export default function Copyright() {
             </p>
             <ul>
               <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Cursed Gear</strong> - Trademark of 2K Sports and WWE</li>
+              <li><strong>Roblox</strong> - Trademark of Roblox Corporation</li>
+              <li><strong>Cursed Gear</strong> - Trademark of its respective rights holders</li>
               <li><strong>Cursed Gear Wiki</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>

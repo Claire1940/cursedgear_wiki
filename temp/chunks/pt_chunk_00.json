@@ -1,0 +1,58 @@
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de Cursed Gear - Codes, Gears, Técnicas, Builds e Guias",
+      "description": "Hub da wiki de Cursed Gear com guias para iniciantes, builds de equipamentos, técnicas amaldiçoadas, clãs, expedições, atributos, controles e conteúdo de progressão para jogadores de Roblox.",
+      "keywords": "cursed gear, wiki de cursed gear, códigos de cursed gear, tier list de equipamentos de cursed gear, tier list de técnicas de cursed gear, tier list de clãs de cursed gear, builds de cursed gear, atributos de cursed gear, expedições de cursed gear, controles de cursed gear",
+      "ogTitle": "Wiki de Cursed Gear - Codes, Gears, Técnicas, Builds e Guias",
+      "ogDescription": "Hub da wiki de Cursed Gear com guias para iniciantes, builds de equipamentos, técnicas amaldiçoadas, clãs, expedições, atributos, controles e conteúdo de progressão para jogadores de Roblox.",
+      "twitterTitle": "Wiki de Cursed Gear - Codes, Gears, Técnicas, Builds e Guias",
+      "twitterDescription": "Acompanhe guias, sistemas e atualizações de progressão de Cursed Gear para jogadores de Roblox."
+    }
+  },
+  "nav": {},
+  "common": {
+    "home": "Início",
+    "loading": "Carregando conteúdo de Cursed Gear...",
+    "more": "Mais",
+    "playNow": "Jogar Agora",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais"
+  },
+  "hero": {
+    "badge": "Wiki de RPG de Ação Roblox",
+    "title": "Wiki de Cursed Gear",
+    "description": "Acompanhe os guias mais recentes de Cursed Gear para equipamentos, técnicas, clãs, expedições, builds, atributos e progressão. Use este hub para planejar seu início de jogo e comparar suas opções.",
+    "getFreeCodesCTA": "Junte-se ao Discord de Cursed Gear",
+    "playOnRobloxCTA": "Jogue Cursed Gear no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "633.5K+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "58",
+        "label": "Clans Disponíveis"
+      },
+      "stat3": {
+        "value": "9",
+        "label": "Gears Disponíveis"
+      },
+      "stat4": {
+        "value": "0",
+        "label": "Codes Ativos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Trailer Oficial de Cursed Gear",
+    "description": "Assista ao trailer oficial e use os módulos abaixo para planejar sua progressão."
+  }
+}
