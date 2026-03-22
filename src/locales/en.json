@@ -59,22 +59,86 @@
     "titleHighlight": "Quick Navigation",
     "subtitle": "Jump to any Cursed Gear homepage module",
     "cards": [
-      { "icon": "Gift", "title": "Cursed Gear Codes", "description": "Track active, expired, and upcoming drops" },
-      { "icon": "ClipboardCheck", "title": "Cursed Gear Beginner Guide", "description": "Build a safe first-hour progression plan" },
-      { "icon": "MessageCircle", "title": "Cursed Gear Trello & Discord", "description": "Open official links and learn usage order" },
-      { "icon": "Shield", "title": "Cursed Gear Gears", "description": "Compare class routes before rerolls" },
-      { "icon": "Users", "title": "Cursed Gear Clans", "description": "Read rarity priorities and reroll strategy" },
-      { "icon": "Sparkles", "title": "Cursed Gear Techniques", "description": "Map unlock timing and gear synergy" },
-      { "icon": "TrendingUp", "title": "Cursed Gear Stats", "description": "Use stat presets for PvE and PvP" },
-      { "icon": "Hammer", "title": "Cursed Gear Builds", "description": "Choose practical starter build templates" },
-      { "icon": "Calendar", "title": "Cursed Gear Grade Progression", "description": "Follow milestone upgrades and exams" },
-      { "icon": "Map", "title": "Cursed Gear Expeditions", "description": "Plan objective loops and extraction timing" },
-      { "icon": "Keyboard", "title": "Cursed Gear Controls & Combat Mechanics", "description": "Use keybinds and advanced mechanics with cleaner timing" },
-      { "icon": "Star", "title": "Cursed Gear Heian Rating & Skill Tree", "description": "Spend HR with upgrade-first decision rules" },
-      { "icon": "Download", "title": "Cursed Gear Technique Unlock", "description": "Unlock and level cursed techniques faster" },
-      { "icon": "Package", "title": "Cursed Gear Weapons", "description": "Pair weapon styles with cybernetics" },
-      { "icon": "Home", "title": "Cursed Gear Base Building", "description": "Scale PMC and base upgrades efficiently" },
-      { "icon": "AlertTriangle", "title": "Cursed Gear Extraction Loop", "description": "Minimize wipe risk and secure Time" }
+      {
+        "icon": "Gift",
+        "title": "Cursed Gear Codes",
+        "description": "Track active, expired, and upcoming drops"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Cursed Gear Beginner Guide",
+        "description": "Build a safe first-hour progression plan"
+      },
+      {
+        "icon": "MessageCircle",
+        "title": "Cursed Gear Trello & Discord",
+        "description": "Open official links and learn usage order"
+      },
+      {
+        "icon": "Shield",
+        "title": "Cursed Gear Gears",
+        "description": "Compare class routes before rerolls"
+      },
+      {
+        "icon": "Users",
+        "title": "Cursed Gear Clans",
+        "description": "Read rarity priorities and reroll strategy"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Cursed Gear Techniques",
+        "description": "Map unlock timing and gear synergy"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Cursed Gear Stats",
+        "description": "Use stat presets for PvE and PvP"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Cursed Gear Builds",
+        "description": "Choose practical starter build templates"
+      },
+      {
+        "icon": "Calendar",
+        "title": "Cursed Gear Grade Progression",
+        "description": "Follow milestone upgrades and exams"
+      },
+      {
+        "icon": "Map",
+        "title": "Cursed Gear Expeditions",
+        "description": "Plan objective loops and extraction timing"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Cursed Gear Controls & Combat Mechanics",
+        "description": "Use keybinds and advanced mechanics with cleaner timing"
+      },
+      {
+        "icon": "Star",
+        "title": "Cursed Gear Heian Rating & Skill Tree",
+        "description": "Spend HR with upgrade-first decision rules"
+      },
+      {
+        "icon": "Download",
+        "title": "Cursed Gear Cursed Technique Unlock",
+        "description": "Track shard-to-crystal unlock and first upgrades"
+      },
+      {
+        "icon": "Package",
+        "title": "Cursed Gear Weapons & Cybernetics",
+        "description": "Pair movesets and bonus stats with your route"
+      },
+      {
+        "icon": "Home",
+        "title": "Cursed Gear Base Building / PMC",
+        "description": "Use build mode systems as long-run multipliers"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Cursed Gear Extraction & Survival Loop",
+        "description": "Apply risk thresholds to secure Time consistently"
+      }
     ]
   },
   "modules": {
@@ -105,7 +169,10 @@
         "title": "Cursed Gear Codes",
         "subtitle": "Track code status, update timing, and redemption flow in one place.",
         "codeEntries": [
-          { "code": "NO_ACTIVE_CODE", "status": "No publicly confirmed active Cursed Gear code right now. Check Discord and Trello announcements first." }
+          {
+            "code": "NO_ACTIVE_CODE",
+            "status": "No publicly confirmed active Cursed Gear code right now. Check Discord and Trello announcements first."
+          }
         ],
         "overview": [
           "Cursed Gear codes are a top search entry even when none are active.",
@@ -118,8 +185,14 @@
           "Record status immediately as active, expired, or unavailable."
         ],
         "moduleFaq": [
-          { "q": "Are there active Cursed Gear codes now?", "a": "This tracker currently shows no publicly confirmed active Cursed Gear code." },
-          { "q": "Where should I verify Cursed Gear codes first?", "a": "Check Cursed Gear Discord announcements, then Trello and large guide hubs." }
+          {
+            "q": "Are there active Cursed Gear codes now?",
+            "a": "This tracker currently shows no publicly confirmed active Cursed Gear code."
+          },
+          {
+            "q": "Where should I verify Cursed Gear codes first?",
+            "a": "Check Cursed Gear Discord announcements, then Trello and large guide hubs."
+          }
         ]
       },
       "beginner": {
@@ -136,17 +209,29 @@
           {
             "title": "First Hour Focus",
             "description": "Build repeatable combat habits before chasing high-risk objectives.",
-            "points": ["Practice parry timing", "Use short expedition routes", "Bank Time regularly"]
+            "points": [
+              "Practice parry timing",
+              "Use short expedition routes",
+              "Bank Time regularly"
+            ]
           },
           {
             "title": "New Player Mistake",
             "description": "Overcommitting for one extra objective often resets the whole run.",
-            "points": ["Avoid greed rotations", "Leave at value thresholds", "Re-enter with upgrades"]
+            "points": [
+              "Avoid greed rotations",
+              "Leave at value thresholds",
+              "Re-enter with upgrades"
+            ]
           },
           {
             "title": "Safe Growth",
             "description": "Consistency outperforms flashy routing in early progression.",
-            "points": ["Durability first", "Clean controls setup", "Predictable extraction plan"]
+            "points": [
+              "Durability first",
+              "Clean controls setup",
+              "Predictable extraction plan"
+            ]
           }
         ]
       },
@@ -155,10 +240,26 @@
         "title": "Cursed Gear Trello, Discord & Wiki Links",
         "subtitle": "Keep official and high-value references one click away.",
         "links": [
-          { "label": "Cursed Gear Roblox Game", "url": "https://www.roblox.com/games/10154506972/Cursed-Gear", "meta": "Play link" },
-          { "label": "Monad Studios West", "url": "https://www.roblox.com/communities/15291380/Monad-Studios-West", "meta": "Developer community" },
-          { "label": "Cursed Gear Official Discord", "url": "https://discord.gg/cgofficial", "meta": "Announcements and support" },
-          { "label": "Cursed Gear Official Trello", "url": "https://trello.com/b/zyHFkkSS/cursed-gear-trello", "meta": "Systems and references" }
+          {
+            "label": "Cursed Gear Roblox Game",
+            "url": "https://www.roblox.com/games/10154506972/Cursed-Gear",
+            "meta": "Play link"
+          },
+          {
+            "label": "Monad Studios West",
+            "url": "https://www.roblox.com/communities/15291380/Monad-Studios-West",
+            "meta": "Developer community"
+          },
+          {
+            "label": "Cursed Gear Official Discord",
+            "url": "https://discord.gg/cgofficial",
+            "meta": "Announcements and support"
+          },
+          {
+            "label": "Cursed Gear Official Trello",
+            "url": "https://trello.com/b/zyHFkkSS/cursed-gear-trello",
+            "meta": "Systems and references"
+          }
         ],
         "overview": [
           "Discord posts are usually the fastest signal for updates.",
@@ -171,9 +272,30 @@
         "title": "Cursed Gear Gears / Classes",
         "subtitle": "Compare starter and advanced gear paths before rerolling.",
         "cards": [
-          { "title": "Executioner", "description": "Stable melee route with straightforward pressure patterns.", "points": ["Strong beginner comfort", "Reliable close-range flow"] },
-          { "title": "Manipulator", "description": "Spacing-focused control route with ranged setup value.", "points": ["Great for spacing", "Technique synergy"] },
-          { "title": "Projector", "description": "High-tempo route for players who favor mobility chains.", "points": ["Fast entries", "Aggressive pressure"] }
+          {
+            "title": "Executioner",
+            "description": "Stable melee route with straightforward pressure patterns.",
+            "points": [
+              "Strong beginner comfort",
+              "Reliable close-range flow"
+            ]
+          },
+          {
+            "title": "Manipulator",
+            "description": "Spacing-focused control route with ranged setup value.",
+            "points": [
+              "Great for spacing",
+              "Technique synergy"
+            ]
+          },
+          {
+            "title": "Projector",
+            "description": "High-tempo route for players who favor mobility chains.",
+            "points": [
+              "Fast entries",
+              "Aggressive pressure"
+            ]
+          }
         ],
         "overview": [
           "Use class choice to define your stat plan early.",
@@ -186,9 +308,30 @@
         "title": "Cursed Gear Clans",
         "subtitle": "Learn clan rarity logic, Royal bonus impact, and reroll decisions with clear progression context.",
         "cards": [
-          { "title": "Clan Rarity", "description": "Use rarity tiers to decide when to hold, reroll, or invest resources.", "points": ["Common to premium outcomes", "Filter by roster goals"] },
-          { "title": "Royal Buff", "description": "Royal status can grant a highlighted 10% stat scaling bonus that shifts your build route.", "points": ["Check boosted stat first", "Adjust stat allocation path"] },
-          { "title": "Reroll Judgment", "description": "Keep high-value random stat outcomes even when clan name is not your original target.", "points": ["Compare opportunity cost", "Spend rerolls with milestone gating"] }
+          {
+            "title": "Clan Rarity",
+            "description": "Use rarity tiers to decide when to hold, reroll, or invest resources.",
+            "points": [
+              "Common to premium outcomes",
+              "Filter by roster goals"
+            ]
+          },
+          {
+            "title": "Royal Buff",
+            "description": "Royal status can grant a highlighted 10% stat scaling bonus that shifts your build route.",
+            "points": [
+              "Check boosted stat first",
+              "Adjust stat allocation path"
+            ]
+          },
+          {
+            "title": "Reroll Judgment",
+            "description": "Keep high-value random stat outcomes even when clan name is not your original target.",
+            "points": [
+              "Compare opportunity cost",
+              "Spend rerolls with milestone gating"
+            ]
+          }
         ],
         "overview": [
           "Cursed Gear clans affect scaling and build direction, not only identity.",
@@ -196,11 +339,23 @@
           "Strong clan decisions start from stat value and resource economy, not name preference alone."
         ],
         "infoTable": {
-          "columns": ["Question", "Why it matters"],
+          "columns": [
+            "Question",
+            "Why it matters"
+          ],
           "rows": [
-            ["Did I roll Royal?", "A Royal bonus can justify keeping a clan longer than planned."],
-            ["Which stat got boosted?", "The boosted stat determines whether melee, technique, tank, or speed scaling is strongest."],
-            ["Do I have enough HR for rerolls?", "Rerolls spend key progression currency, so each attempt has a clear opportunity cost."]
+            [
+              "Did I roll Royal?",
+              "A Royal bonus can justify keeping a clan longer than planned."
+            ],
+            [
+              "Which stat got boosted?",
+              "The boosted stat determines whether melee, technique, tank, or speed scaling is strongest."
+            ],
+            [
+              "Do I have enough HR for rerolls?",
+              "Rerolls spend key progression currency, so each attempt has a clear opportunity cost."
+            ]
           ]
         }
       },
@@ -209,9 +364,31 @@
         "title": "Cursed Gear Techniques",
         "subtitle": "Map technique unlock timing, upgrade pillars, and synergy with gear and stat direction.",
         "cards": [
-          { "title": "Unlock Timing", "description": "Most players begin serious technique planning around the Grade 4 stage.", "points": ["Milestone-based unlock flow", "Build planning starts early"] },
-          { "title": "Technique Upgrades", "description": "Keep upgrade logic simple: Potency, Haste, and Efficiency drive sustained output.", "points": ["Potency for damage profile", "Haste for cadence", "Efficiency for resource control"] },
-          { "title": "Build Synergy", "description": "Technique choices should reinforce your gear route and combat role.", "points": ["Manipulator favors spacing support", "Bruiser routes favor pressure tools"] }
+          {
+            "title": "Unlock Timing",
+            "description": "Most players begin serious technique planning around the Grade 4 stage.",
+            "points": [
+              "Milestone-based unlock flow",
+              "Build planning starts early"
+            ]
+          },
+          {
+            "title": "Technique Upgrades",
+            "description": "Keep upgrade logic simple: Potency, Haste, and Efficiency drive sustained output.",
+            "points": [
+              "Potency for damage profile",
+              "Haste for cadence",
+              "Efficiency for resource control"
+            ]
+          },
+          {
+            "title": "Build Synergy",
+            "description": "Technique choices should reinforce your gear route and combat role.",
+            "points": [
+              "Manipulator favors spacing support",
+              "Bruiser routes favor pressure tools"
+            ]
+          }
         ],
         "overview": [
           "Cursed Gear techniques are a core power layer stacked on gear and stat choices.",
@@ -232,17 +409,56 @@
         "title": "Cursed Gear Stats Guide",
         "subtitle": "Understand all six core stats and use practical allocation paths for melee, technique, and hybrid play.",
         "statCards": [
-          { "stat": "Durability", "detail": "Increases max HP and gives the safest early progression buffer for new players." },
-          { "stat": "Physicality", "detail": "Boosts melee damage and supports weapon-first route scaling." },
-          { "stat": "Output", "detail": "Improves cursed technique damage and supports ability-centered builds." },
-          { "stat": "Efficiency", "detail": "Improves stamina economy and smooths long combat rotations." },
-          { "stat": "Awareness", "detail": "Strengthens defensive pressure tools such as block value and stamina damage interactions." },
-          { "stat": "Dexterity", "detail": "Increases movement speed and helps mobile routes execute cleaner repositioning." }
+          {
+            "stat": "Durability",
+            "detail": "Increases max HP and gives the safest early progression buffer for new players."
+          },
+          {
+            "stat": "Physicality",
+            "detail": "Boosts melee damage and supports weapon-first route scaling."
+          },
+          {
+            "stat": "Output",
+            "detail": "Improves cursed technique damage and supports ability-centered builds."
+          },
+          {
+            "stat": "Efficiency",
+            "detail": "Improves stamina economy and smooths long combat rotations."
+          },
+          {
+            "stat": "Awareness",
+            "detail": "Strengthens defensive pressure tools such as block value and stamina damage interactions."
+          },
+          {
+            "stat": "Dexterity",
+            "detail": "Increases movement speed and helps mobile routes execute cleaner repositioning."
+          }
         ],
         "cards": [
-          { "title": "Beginner Safe Path", "description": "Start with Durability, then branch into Physicality or Output based on your gear route.", "points": ["Early survivability baseline", "Route-based branching"] },
-          { "title": "Melee Route", "description": "Prioritize Durability and Physicality, then layer Awareness as mechanics improve.", "points": ["Reliable close-range scaling", "Better pressure control"] },
-          { "title": "Technique Route", "description": "Open with Durability, then scale Output and Efficiency once technique loops are active.", "points": ["Skill damage ramp", "Long-fight consistency"] }
+          {
+            "title": "Beginner Safe Path",
+            "description": "Start with Durability, then branch into Physicality or Output based on your gear route.",
+            "points": [
+              "Early survivability baseline",
+              "Route-based branching"
+            ]
+          },
+          {
+            "title": "Melee Route",
+            "description": "Prioritize Durability and Physicality, then layer Awareness as mechanics improve.",
+            "points": [
+              "Reliable close-range scaling",
+              "Better pressure control"
+            ]
+          },
+          {
+            "title": "Technique Route",
+            "description": "Open with Durability, then scale Output and Efficiency once technique loops are active.",
+            "points": [
+              "Skill damage ramp",
+              "Long-fight consistency"
+            ]
+          }
         ],
         "overview": [
           "Cursed Gear stat priorities should match the route you are actively playing.",
@@ -260,10 +476,38 @@
         "title": "Cursed Gear Best Builds",
         "subtitle": "Use practical starter builds to choose a clear route instead of spreading points at random.",
         "cards": [
-          { "title": "Safe Executioner Build", "description": "Durability first and Physicality second for reliable melee progression.", "points": ["Strong first-run stability", "Clean close-range learning"] },
-          { "title": "Projector Pressure Build", "description": "Durability plus Dexterity or Awareness for faster tempo and gap-closing pressure.", "points": ["Aggressive route control", "High execution payoff"] },
-          { "title": "Manipulator Technique Build", "description": "Durability early, then Output and Efficiency once techniques drive damage.", "points": ["Ranged pressure support", "Resource-aware scaling"] },
-          { "title": "Constructor Hybrid Build", "description": "Balanced Physicality and Output with enough Durability to absorb mistakes.", "points": ["Flexible role coverage", "Smooth route pivots"] }
+          {
+            "title": "Safe Executioner Build",
+            "description": "Durability first and Physicality second for reliable melee progression.",
+            "points": [
+              "Strong first-run stability",
+              "Clean close-range learning"
+            ]
+          },
+          {
+            "title": "Projector Pressure Build",
+            "description": "Durability plus Dexterity or Awareness for faster tempo and gap-closing pressure.",
+            "points": [
+              "Aggressive route control",
+              "High execution payoff"
+            ]
+          },
+          {
+            "title": "Manipulator Technique Build",
+            "description": "Durability early, then Output and Efficiency once techniques drive damage.",
+            "points": [
+              "Ranged pressure support",
+              "Resource-aware scaling"
+            ]
+          },
+          {
+            "title": "Constructor Hybrid Build",
+            "description": "Balanced Physicality and Output with enough Durability to absorb mistakes.",
+            "points": [
+              "Flexible role coverage",
+              "Smooth route pivots"
+            ]
+          }
         ],
         "overview": [
           "A strong Cursed Gear build defines engage timing, disengage timing, and extraction discipline.",
@@ -271,12 +515,37 @@
           "Compare builds by repeat completion quality and total Time secured."
         ],
         "comparisonTable": {
-          "columns": ["Build", "Best For", "Core Stats", "Main Risk"],
+          "columns": [
+            "Build",
+            "Best For",
+            "Core Stats",
+            "Main Risk"
+          ],
           "rows": [
-            ["Safe Executioner", "First-run melee progression", "Durability + Physicality", "Can feel slower than high-tempo options."],
-            ["Projector Pressure", "Aggressive tempo players", "Durability + Dexterity/Awareness", "Punishes mistimed entries."],
-            ["Manipulator Technique", "Ranged and ability routes", "Durability + Output + Efficiency", "Needs strong spacing discipline."],
-            ["Constructor Hybrid", "Players who want flexibility", "Durability + Physicality + Output", "Can lose focus if overbalanced."]
+            [
+              "Safe Executioner",
+              "First-run melee progression",
+              "Durability + Physicality",
+              "Can feel slower than high-tempo options."
+            ],
+            [
+              "Projector Pressure",
+              "Aggressive tempo players",
+              "Durability + Dexterity/Awareness",
+              "Punishes mistimed entries."
+            ],
+            [
+              "Manipulator Technique",
+              "Ranged and ability routes",
+              "Durability + Output + Efficiency",
+              "Needs strong spacing discipline."
+            ],
+            [
+              "Constructor Hybrid",
+              "Players who want flexibility",
+              "Durability + Physicality + Output",
+              "Can lose focus if overbalanced."
+            ]
           ]
         },
         "tips": [
@@ -296,9 +565,33 @@
           "Enter hourly 1v1 or grade-exam style progression when ready for rank boosts."
         ],
         "cards": [
-          { "icon": "Calendar", "title": "Grade 4", "description": "Frequently cited as the cursed technique unlock breakpoint.", "points": ["Major unlock milestone", "Build path shifts begin"] },
-          { "icon": "Trophy", "title": "Grade Exams", "description": "Hourly competitive progression moments that can accelerate power growth.", "points": ["Rank-up pressure points", "Strong progression catalyst"] },
-          { "icon": "Clock", "title": "500+ Time Runs", "description": "A useful mid-game benchmark after players graduate from safe extraction loops.", "points": ["Mid-game consistency check", "Signals route maturity"] }
+          {
+            "icon": "Calendar",
+            "title": "Grade 4",
+            "description": "Frequently cited as the cursed technique unlock breakpoint.",
+            "points": [
+              "Major unlock milestone",
+              "Build path shifts begin"
+            ]
+          },
+          {
+            "icon": "Trophy",
+            "title": "Grade Exams",
+            "description": "Hourly competitive progression moments that can accelerate power growth.",
+            "points": [
+              "Rank-up pressure points",
+              "Strong progression catalyst"
+            ]
+          },
+          {
+            "icon": "Clock",
+            "title": "500+ Time Runs",
+            "description": "A useful mid-game benchmark after players graduate from safe extraction loops.",
+            "points": [
+              "Mid-game consistency check",
+              "Signals route maturity"
+            ]
+          }
         ],
         "overview": [
           "Cursed Gear grade progression performs best when tied to clear milestone checkpoints.",
@@ -306,8 +599,14 @@
           "Progression speed improves when players convert safe runs into consistent rank momentum."
         ],
         "moduleFaq": [
-          { "q": "When do I unlock my cursed technique in Cursed Gear?", "a": "Around the Grade 4 milestone, usually aligned with the shard-to-crystal unlock flow." },
-          { "q": "What is the fastest early progression loop in Cursed Gear?", "a": "Short expeditions, focused loot conversion, and timely extraction usually outperform risky full clears." }
+          {
+            "q": "When do I unlock my cursed technique in Cursed Gear?",
+            "a": "Around the Grade 4 milestone, usually aligned with the shard-to-crystal unlock flow."
+          },
+          {
+            "q": "What is the fastest early progression loop in Cursed Gear?",
+            "a": "Short expeditions, focused loot conversion, and timely extraction usually outperform risky full clears."
+          }
         ]
       },
       "expeditions": {
@@ -315,10 +614,42 @@
         "title": "Cursed Gear Expeditions Guide",
         "subtitle": "Learn expedition objectives, risk filters, and extraction timing that preserve progression.",
         "cards": [
-          { "icon": "Package", "title": "Caches", "description": "Primary low-risk loot source for Time and items.", "points": ["Safe economy anchor", "Reliable route opener"] },
-          { "icon": "Flame", "title": "Veils", "description": "Enemy-spawning encounter points with higher risk and better reward potential.", "points": ["Higher pressure", "Better loot upside"] },
-          { "icon": "Settings", "title": "Generators / Encryptions", "description": "Mechanic-style objectives that add route variety and knowledge checks.", "points": ["Map knowledge value", "Team coordination checks"] },
-          { "icon": "Map", "title": "Evac Points", "description": "The most important safety valve for preserving run progress.", "points": ["Progress protection", "Wipe prevention"] }
+          {
+            "icon": "Package",
+            "title": "Caches",
+            "description": "Primary low-risk loot source for Time and items.",
+            "points": [
+              "Safe economy anchor",
+              "Reliable route opener"
+            ]
+          },
+          {
+            "icon": "Flame",
+            "title": "Veils",
+            "description": "Enemy-spawning encounter points with higher risk and better reward potential.",
+            "points": [
+              "Higher pressure",
+              "Better loot upside"
+            ]
+          },
+          {
+            "icon": "Settings",
+            "title": "Generators / Encryptions",
+            "description": "Mechanic-style objectives that add route variety and knowledge checks.",
+            "points": [
+              "Map knowledge value",
+              "Team coordination checks"
+            ]
+          },
+          {
+            "icon": "Map",
+            "title": "Evac Points",
+            "description": "The most important safety valve for preserving run progress.",
+            "points": [
+              "Progress protection",
+              "Wipe prevention"
+            ]
+          }
         ],
         "overview": [
           "Cursed Gear expeditions can be played solo or with a party of up to four.",
@@ -337,26 +668,94 @@
         "title": "Cursed Gear Controls & Combat Mechanics",
         "subtitle": "Use keybind clarity and mechanic timing to improve consistency in PvE and PvP.",
         "infoTable": {
-          "columns": ["Action", "Key"],
+          "columns": [
+            "Action",
+            "Key"
+          ],
           "rows": [
-            ["Movement", "WASD"],
-            ["Jump", "Space"],
-            ["Sprint", "Shift"],
-            ["Light Attack", "M1"],
-            ["Heavy Attack", "M2"],
-            ["Dodge", "Q"],
-            ["Block", "F"],
-            ["Cursed Energy", "E / MMB"],
-            ["Gear Skill", "V"],
-            ["Skill Tree", "M"],
-            ["Build Mode", "U"]
+            [
+              "Movement",
+              "WASD"
+            ],
+            [
+              "Jump",
+              "Space"
+            ],
+            [
+              "Sprint",
+              "Shift"
+            ],
+            [
+              "Light Attack",
+              "M1"
+            ],
+            [
+              "Heavy Attack",
+              "M2"
+            ],
+            [
+              "Dodge",
+              "Q"
+            ],
+            [
+              "Block",
+              "F"
+            ],
+            [
+              "Cursed Energy",
+              "E / MMB"
+            ],
+            [
+              "Gear Skill",
+              "V"
+            ],
+            [
+              "Skill Tree",
+              "M"
+            ],
+            [
+              "Build Mode",
+              "U"
+            ]
           ]
         },
         "cards": [
-          { "icon": "Keyboard", "title": "Curse Dodge", "description": "E + Q gives a stronger iframe-style dodge than basic movement alone.", "points": ["Better escape windows", "Punishes panic movement"] },
-          { "icon": "Shield", "title": "Parry", "description": "E + F is critical for draining enemy stamina and turning defense into offense.", "points": ["Stamina pressure", "Counter setup control"] },
-          { "icon": "Sparkles", "title": "Cursed Energy Timing", "description": "Matching M1 with cursed energy creates stun and combo extension pressure.", "points": ["Combo extension", "Burst timing value"] },
-          { "icon": "ArrowRight", "title": "Sprint Attack", "description": "Shift + M1 is a clean opener that new players should practice intentionally.", "points": ["Reliable engage tool", "Entry timing drill"] }
+          {
+            "icon": "Keyboard",
+            "title": "Curse Dodge",
+            "description": "E + Q gives a stronger iframe-style dodge than basic movement alone.",
+            "points": [
+              "Better escape windows",
+              "Punishes panic movement"
+            ]
+          },
+          {
+            "icon": "Shield",
+            "title": "Parry",
+            "description": "E + F is critical for draining enemy stamina and turning defense into offense.",
+            "points": [
+              "Stamina pressure",
+              "Counter setup control"
+            ]
+          },
+          {
+            "icon": "Sparkles",
+            "title": "Cursed Energy Timing",
+            "description": "Matching M1 with cursed energy creates stun and combo extension pressure.",
+            "points": [
+              "Combo extension",
+              "Burst timing value"
+            ]
+          },
+          {
+            "icon": "ArrowRight",
+            "title": "Sprint Attack",
+            "description": "Shift + M1 is a clean opener that new players should practice intentionally.",
+            "points": [
+              "Reliable engage tool",
+              "Entry timing drill"
+            ]
+          }
         ],
         "overview": [
           "Cursed Gear combat consistency improves when keybind intent is clear before fights begin.",
@@ -374,18 +773,57 @@
         "title": "Cursed Gear Heian Rating & Skill Tree",
         "subtitle": "Understand HR uses and spend order so each purchase supports progression momentum.",
         "infoTable": {
-          "columns": ["Use", "Cost / note"],
+          "columns": [
+            "Use",
+            "Cost / note"
+          ],
           "rows": [
-            ["Skill Upgrade", "200 HR"],
-            ["Customize Character", "200 HR"],
-            ["Curse Color", "800 HR"],
-            ["Clan Reroll", "800 HR"]
+            [
+              "Skill Upgrade",
+              "200 HR"
+            ],
+            [
+              "Customize Character",
+              "200 HR"
+            ],
+            [
+              "Curse Color",
+              "800 HR"
+            ],
+            [
+              "Clan Reroll",
+              "800 HR"
+            ]
           ]
         },
         "cards": [
-          { "icon": "TrendingUp", "title": "Early Value", "description": "Prioritize gameplay-impacting upgrades before cosmetics when progression is the goal.", "points": ["Power first", "Faster run stability"] },
-          { "icon": "Users", "title": "Reroll Opportunity Cost", "description": "Clan rerolls compete with core upgrades, so each reroll should clear a value threshold.", "points": ["Resource tradeoff clarity", "Fewer wasted HR cycles"] },
-          { "icon": "Star", "title": "Homepage CTA", "description": "Use this module as the bridge from HR basics into deeper clan and build pages.", "points": ["Clear next-step routing", "Higher page-to-page continuity"] }
+          {
+            "icon": "TrendingUp",
+            "title": "Early Value",
+            "description": "Prioritize gameplay-impacting upgrades before cosmetics when progression is the goal.",
+            "points": [
+              "Power first",
+              "Faster run stability"
+            ]
+          },
+          {
+            "icon": "Users",
+            "title": "Reroll Opportunity Cost",
+            "description": "Clan rerolls compete with core upgrades, so each reroll should clear a value threshold.",
+            "points": [
+              "Resource tradeoff clarity",
+              "Fewer wasted HR cycles"
+            ]
+          },
+          {
+            "icon": "Star",
+            "title": "Homepage CTA",
+            "description": "Use this module as the bridge from HR basics into deeper clan and build pages.",
+            "points": [
+              "Clear next-step routing",
+              "Higher page-to-page continuity"
+            ]
+          }
         ],
         "overview": [
           "Cursed Gear HR spending should follow milestone priorities instead of impulse purchases.",
@@ -399,67 +837,219 @@
         ]
       },
       "techniqueUnlock": {
-        "id": "cursed-gear-technique-unlock-upgrades",
-        "title": "Cursed Gear Technique Unlock & Upgrades",
-        "subtitle": "Follow the unlock path from shards to sustained technique scaling.",
+        "id": "cursed-gear-cursed-technique-unlock-upgrades",
+        "title": "Cursed Gear Cursed Technique Unlock & Upgrades",
+        "subtitle": "Walk through shard conversion, blue-bar unlock, and the first upgrades that define your combat identity.",
+        "stepsTitle": "Unlock process to visualize",
         "steps": [
-          "Reach grade milestones tied to technique unlock eligibility.",
-          "Collect and combine required shards into unlock resources.",
-          "Upgrade potency, haste, and efficiency in practical order."
+          "Reach the Grade 4 milestone.",
+          "Collect three shards of the same type.",
+          "Convert those shards into a crystal.",
+          "Consume the crystal to unlock cursed technique access and the blue bar."
         ],
+        "cardsTitle": "First upgrades to explain",
+        "cards": [
+          {
+            "icon": "Flame",
+            "title": "Potency",
+            "description": "Increase technique damage once your core survivability route is stable.",
+            "points": [
+              "Higher burst ceiling",
+              "Best after stable defense basics"
+            ]
+          },
+          {
+            "icon": "Clock",
+            "title": "Haste",
+            "description": "Lower cooldowns to smooth ability cycles and improve combo frequency.",
+            "points": [
+              "Faster rotation cadence",
+              "Cleaner pressure windows"
+            ]
+          },
+          {
+            "icon": "TrendingUp",
+            "title": "Efficiency",
+            "description": "Reduce energy cost so technique loops stay active for longer encounters.",
+            "points": [
+              "Longer loop uptime",
+              "Better sustain in expedition chains"
+            ]
+          }
+        ],
+        "overviewTitle": "Related systems to mention",
         "overview": [
-          "Cursed Gear technique unlock is a milestone route, not random grind.",
-          "Upgrade order should mirror your combat tempo needs.",
-          "Sustained scaling beats one-off spike planning."
+          "Reverse Cursed Technique healing is a later resource-management layer worth linking from here.",
+          "Technique upgrades become more valuable after your stat path and gear identity are settled.",
+          "Cross-link this module into techniques, builds, and progression for cleaner navigation."
+        ],
+        "tips": [
+          "Use this section as the bridge from milestone progression into build planning.",
+          "Avoid overspending upgrades before your extraction consistency is stable.",
+          "Keep upgrade order aligned with your active combat route, not trend picks."
         ]
       },
       "weaponsCybernetics": {
         "id": "cursed-gear-weapons-cybernetics",
         "title": "Cursed Gear Weapons & Cybernetics",
-        "subtitle": "Align weapon handling and cybernetic bonuses with your build role.",
+        "subtitle": "Treat weapons and cybernetics as route-defining support systems instead of throwaway loot.",
+        "cardsTitle": "Two equipment layers to explain",
         "cards": [
-          { "title": "Weapon Rhythm", "description": "Choose weapon families that fit your reaction and spacing habits.", "points": ["Combo comfort", "Recovery control"] },
-          { "title": "Cybernetic Value", "description": "Use bonus lines that reinforce your chosen route objective.", "points": ["Defense utility", "Damage utility"] },
-          { "title": "Loadout Balance", "description": "Avoid overstacking one strength while exposing major weakness.", "points": ["Sustain", "Burst", "Escape"] }
+          {
+            "icon": "Package",
+            "title": "Weapons",
+            "description": "Weapon families change move rhythm, critical options, and practical pressure timing.",
+            "points": [
+              "Moveset identity",
+              "Critical attack routing"
+            ]
+          },
+          {
+            "icon": "Settings",
+            "title": "Cybernetics",
+            "description": "Cybernetics provide bonus stats and can create strong early value even at small numbers.",
+            "points": [
+              "Early efficiency gains",
+              "Stat-route reinforcement"
+            ]
+          }
         ],
+        "overviewTitle": "What players want from this module",
         "overview": [
-          "Cursed Gear loadouts should be tested in repeated expedition loops.",
-          "Weapon and cybernetic synergy is more important than raw rarity.",
-          "Use upgrades that preserve consistency under pressure."
+          "Which weapons match each gear or build direction.",
+          "Which cybernetic bonuses are worth equipping early instead of hoarding.",
+          "How equipment layers interact with Physicality, Output, and survivability."
+        ],
+        "tagGridTitle": "Bonus chips for fast comparison",
+        "tagGrid": [
+          "Weapon fit by build role",
+          "Early bonus efficiency",
+          "Physicality synergy",
+          "Output synergy",
+          "Survivability support",
+          "Expedition consistency"
+        ],
+        "tips": [
+          "Push users toward synergy questions instead of raw item lists.",
+          "Highlight that small stat bonuses can still shift early-run outcomes.",
+          "Cross-link to builds, stats, and expeditions where these upgrades are actually used."
         ]
       },
       "baseBuilding": {
         "id": "cursed-gear-base-building-pmc",
         "title": "Cursed Gear Base Building / PMC",
-        "subtitle": "Scale your base systems to support long-session progression output.",
+        "subtitle": "Present base building as a core differentiator that supports party identity and long-session progression.",
+        "cardsTitle": "Why this module matters",
         "cards": [
-          { "title": "Upgrade Order", "description": "Open with modules that improve run turnaround and safety.", "points": ["Core economy first", "Utility before luxury"] },
-          { "title": "PMC Planning", "description": "Use base systems to reduce downtime between key runs.", "points": ["Faster prep", "Predictable loops"] },
-          { "title": "Sustain Strategy", "description": "Treat base growth as a multiplier for all future sessions.", "points": ["Compounding value", "Lower recovery cost"] }
+          {
+            "icon": "Building",
+            "title": "Identity Differentiator",
+            "description": "Base building separates Cursed Gear from pure arena or code-focused Roblox loops.",
+            "points": [
+              "System-level identity",
+              "Long-term content depth"
+            ]
+          },
+          {
+            "icon": "Users",
+            "title": "Party Utility",
+            "description": "Public descriptions indicate players can build personal or party-oriented spaces with provided assets.",
+            "points": [
+              "Party expression",
+              "Shared progression context"
+            ]
+          },
+          {
+            "icon": "Keyboard",
+            "title": "Build Mode Control Hook",
+            "description": "Build Mode is associated with the U key, giving this module a clean controls entry point.",
+            "points": [
+              "Easy onboarding anchor",
+              "Natural controls cross-link"
+            ]
+          }
         ],
+        "stepsTitle": "Upgrade path to outline",
+        "steps": [
+          "Learn what can be placed and customized in Build Mode.",
+          "Define how base systems support party identity and progression goals.",
+          "Add a dedicated base-building guide once public system details expand.",
+          "Keep controls and expedition loops linked for practical use cases."
+        ],
+        "overviewTitle": "Questions worth answering",
         "overview": [
-          "Cursed Gear base building is a major progression multiplier.",
-          "Smart base sequencing raises total Time efficiency.",
-          "PMC planning should support your primary expedition route."
+          "What can you place or customize first?",
+          "How does base building connect to party identity or progression?",
+          "What should the first dedicated base-building deep guide include?"
+        ],
+        "tips": [
+          "Link this section to controls because U / build mode is a natural first click.",
+          "Link to progression and expeditions because players expect resource-loop connection.",
+          "Keep official Trello and Discord visible for fast system update checks."
         ]
       },
       "extractionLoop": {
         "id": "cursed-gear-extraction-survival-loop",
         "title": "Cursed Gear Extraction & Survival Loop",
-        "subtitle": "Control risk and secure gains with disciplined extraction decisions.",
+        "subtitle": "Turn risky expeditions into a repeatable survival playbook focused on secured gains.",
+        "stepsTitle": "The safest public progression loop",
+        "steps": [
+          "Enter an expedition.",
+          "Loot caches and selected objectives for Time and item value.",
+          "Leave once the run is already profitable instead of forcing perfect completion.",
+          "Convert secured gains into stats, gear growth, and later technique progression."
+        ],
+        "cardsTitle": "Survival concepts to explain",
         "cards": [
-          { "title": "Risk Threshold", "description": "Set retreat triggers before entering contested zones.", "points": ["Health threshold", "Resource threshold"] },
-          { "title": "Reward Discipline", "description": "Bank progress often to preserve long-term momentum.", "points": ["Secure Time", "Avoid wipe chains"] },
-          { "title": "Loop Stability", "description": "A stable loop outperforms occasional high-roll clears.", "points": ["Repeatability", "Lower variance"] }
+          {
+            "icon": "AlertTriangle",
+            "title": "100 Time Early Exit Rule",
+            "description": "A practical benchmark for new players who need secure progress over style routes.",
+            "points": [
+              "Simple retreat trigger",
+              "Lower wipe frequency"
+            ]
+          },
+          {
+            "icon": "Eye",
+            "title": "Healers and Recovery",
+            "description": "Some maps include healer access points or currency-gated recovery options.",
+            "points": [
+              "Mid-run sustain options",
+              "Route-planning value"
+            ]
+          },
+          {
+            "icon": "Shield",
+            "title": "Death Penalty",
+            "description": "Dying before extraction can erase most practical run value immediately.",
+            "points": [
+              "Progress volatility",
+              "Greed control reminder"
+            ]
+          }
+        ],
+        "overviewTitle": "Questions this page should answer",
+        "overview": [
+          "When should I extract instead of pushing further?",
+          "How do I heal during longer runs?",
+          "What is the fastest low-risk way to farm Time?",
+          "How should the loop change once I can sustain 500+ Time runs?"
         ],
         "moduleFaq": [
-          { "q": "Why is Cursed Gear extraction timing so important?", "a": "Cursed Gear progression depends on secured runs, and extraction timing protects gained Time and upgrade momentum." },
-          { "q": "Should Cursed Gear players push one more objective before leaving?", "a": "In Cursed Gear, consistent extraction usually yields stronger long-term growth than a final high-risk objective." }
+          {
+            "q": "Why is Cursed Gear extraction timing so important?",
+            "a": "Secured extraction protects Time and keeps progression momentum intact across sessions."
+          },
+          {
+            "q": "Should I push one more objective before leaving?",
+            "a": "For most routes, consistent extraction yields stronger long-term growth than final high-risk objectives."
+          }
         ],
-        "overview": [
-          "Cursed Gear survival loop quality determines progression consistency.",
-          "Clear retreat logic prevents avoidable wipes.",
-          "Extraction discipline compounds over every session."
+        "tips": [
+          "Set retreat triggers before entering contested zones so decisions stay disciplined.",
+          "Bank gains early when route conditions are unstable.",
+          "Treat survival loops as a progression multiplier, not a fallback plan."
         ]
       }
     }
@@ -507,16 +1097,40 @@
     "community": "Community",
     "legal": "Legal",
     "communityLinks": [
-      { "label": "Cursed Gear Official Discord", "url": "https://discord.gg/cgofficial" },
-      { "label": "Cursed Gear Official Trello", "url": "https://trello.com/b/zyHFkkSS/cursed-gear-trello" },
-      { "label": "Monad Studios West", "url": "https://www.roblox.com/communities/15291380/Monad-Studios-West" },
-      { "label": "Cursed Gear Roblox Game", "url": "https://www.roblox.com/games/10154506972/Cursed-Gear" }
+      {
+        "label": "Cursed Gear Official Discord",
+        "url": "https://discord.gg/cgofficial"
+      },
+      {
+        "label": "Cursed Gear Official Trello",
+        "url": "https://trello.com/b/zyHFkkSS/cursed-gear-trello"
+      },
+      {
+        "label": "Monad Studios West",
+        "url": "https://www.roblox.com/communities/15291380/Monad-Studios-West"
+      },
+      {
+        "label": "Cursed Gear Roblox Game",
+        "url": "https://www.roblox.com/games/10154506972/Cursed-Gear"
+      }
     ],
     "legalLinks": [
-      { "label": "Roblox Terms of Use", "url": "https://en.help.roblox.com/hc/en-us/articles/115004647846" },
-      { "label": "Roblox Community Standards", "url": "https://en.help.roblox.com/hc/en-us/articles/203313410" },
-      { "label": "Discord Community Guidelines", "url": "https://discord.com/guidelines" },
-      { "label": "Discord Terms of Service", "url": "https://discord.com/terms" }
+      {
+        "label": "Roblox Terms of Use",
+        "url": "https://en.help.roblox.com/hc/en-us/articles/115004647846"
+      },
+      {
+        "label": "Roblox Community Standards",
+        "url": "https://en.help.roblox.com/hc/en-us/articles/203313410"
+      },
+      {
+        "label": "Discord Community Guidelines",
+        "url": "https://discord.com/guidelines"
+      },
+      {
+        "label": "Discord Terms of Service",
+        "url": "https://discord.com/terms"
+      }
     ],
     "copyright": "© 2026 Cursed Gear Wiki. Not affiliated with Roblox Corporation or Monad Studios West.",
     "disclaimer": "Unofficial fan-made resource website."

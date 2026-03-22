@@ -276,13 +276,18 @@ export default function HomePage() {
               )}
 
               {section.overview && section.overview.length > 0 && (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-8">
-                  {section.overview.map((item: string) => (
-                    <div key={item} className="p-4 rounded-lg bg-card border border-border flex items-start gap-3">
-                      <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme))]" />
-                      <p className="text-sm">{item}</p>
-                    </div>
-                  ))}
+                <div className="mb-8">
+                  {section.overviewTitle && (
+                    <h3 className="text-2xl font-bebas mb-4 text-[hsl(var(--nav-theme-light))]">{section.overviewTitle}</h3>
+                  )}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {section.overview.map((item: string) => (
+                      <div key={item} className="p-4 rounded-lg bg-card border border-border flex items-start gap-3">
+                        <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme))]" />
+                        <p className="text-sm">{item}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
 
@@ -308,31 +313,36 @@ export default function HomePage() {
               )}
 
               {section.cards && section.cards.length > 0 && (
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
-                  {section.cards.map((card: any) => (
-                    <article key={card.title} className="p-5 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300">
-                      {card.icon && (
-                        <div className="w-10 h-10 rounded-lg mb-3 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--gold)/0.35)] flex items-center justify-center">
-                          <DynamicIcon
-                            name={card.icon}
-                            className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
-                          />
-                        </div>
-                      )}
-                      <h3 className="text-lg font-bebas mb-2 text-[hsl(var(--nav-theme-light))]">{card.title}</h3>
-                      <p className="text-sm text-muted-foreground mb-3">{card.description}</p>
-                      {card.points && card.points.length > 0 && (
-                        <ul className="space-y-2">
-                          {card.points.map((point: string) => (
-                            <li key={point} className="text-sm flex items-start gap-2">
-                              <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--gold))]" />
-                              <span>{point}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </article>
-                  ))}
+                <div className="mb-8">
+                  {section.cardsTitle && (
+                    <h3 className="text-2xl font-bebas mb-4 text-[hsl(var(--nav-theme-light))]">{section.cardsTitle}</h3>
+                  )}
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                    {section.cards.map((card: any) => (
+                      <article key={card.title} className="p-5 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300">
+                        {card.icon && (
+                          <div className="w-10 h-10 rounded-lg mb-3 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--gold)/0.35)] flex items-center justify-center">
+                            <DynamicIcon
+                              name={card.icon}
+                              className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                            />
+                          </div>
+                        )}
+                        <h3 className="text-lg font-bebas mb-2 text-[hsl(var(--nav-theme-light))]">{card.title}</h3>
+                        <p className="text-sm text-muted-foreground mb-3">{card.description}</p>
+                        {card.points && card.points.length > 0 && (
+                          <ul className="space-y-2">
+                            {card.points.map((point: string) => (
+                              <li key={point} className="text-sm flex items-start gap-2">
+                                <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--gold))]" />
+                                <span>{point}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </article>
+                    ))}
+                  </div>
                 </div>
               )}
 
@@ -349,6 +359,9 @@ export default function HomePage() {
 
               {section.tagGrid && section.tagGrid.length > 0 && (
                 <div className="mb-8">
+                  {section.tagGridTitle && (
+                    <h3 className="text-2xl font-bebas mb-4 text-[hsl(var(--nav-theme-light))]">{section.tagGridTitle}</h3>
+                  )}
                   <div className="flex flex-wrap gap-2">
                     {section.tagGrid.map((tag: string) => (
                       <span
@@ -437,16 +450,21 @@ export default function HomePage() {
               )}
 
               {section.steps && section.steps.length > 0 && (
-                <ol className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-8">
-                  {section.steps.map((step: string, stepIndex: number) => (
-                    <li key={step} className="p-4 rounded-lg bg-card border border-border flex items-start gap-3">
-                      <span className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white text-xs font-semibold flex items-center justify-center mt-0.5">
-                        {stepIndex + 1}
-                      </span>
-                      <span className="text-sm">{step}</span>
-                    </li>
-                  ))}
-                </ol>
+                <div className="mb-8">
+                  {section.stepsTitle && (
+                    <h3 className="text-2xl font-bebas mb-4 text-[hsl(var(--nav-theme-light))]">{section.stepsTitle}</h3>
+                  )}
+                  <ol className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {section.steps.map((step: string, stepIndex: number) => (
+                      <li key={step} className="p-4 rounded-lg bg-card border border-border flex items-start gap-3">
+                        <span className="w-6 h-6 rounded-full bg-[hsl(var(--nav-theme))] text-white text-xs font-semibold flex items-center justify-center mt-0.5">
+                          {stepIndex + 1}
+                        </span>
+                        <span className="text-sm">{step}</span>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
               )}
 
               {section.moduleFaq && section.moduleFaq.length > 0 && (
