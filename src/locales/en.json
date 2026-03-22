@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Buy Now",
+    "playNow": "Play Now",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -51,734 +51,351 @@
     }
   },
   "gameFeature": {
-    "title": "WWE 2K26 Gameplay",
-    "description": "Experience the most authentic wrestling simulation with 400+ superstars and new match types!"
+    "title": "Cursed Gear Official Trailer",
+    "description": "Watch the official trailer, then use the modules below to plan your progression."
   },
   "tools": {
-    "title": "WWE 2K26",
+    "title": "Cursed Gear",
     "titleHighlight": "Quick Navigation",
-    "subtitle": "Jump to any section below",
+    "subtitle": "Jump to any Cursed Gear homepage module",
     "cards": [
-      {
-        "icon": "Calendar",
-        "title": "Release & Editions",
-        "description": "Compare all 4 editions and release dates"
-      },
-      {
-        "icon": "Users",
-        "title": "Roster",
-        "description": "Browse 400+ playable Superstars"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Ratings",
-        "description": "Top-rated Superstars rankings"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Controls",
-        "description": "PS5, Xbox, and PC controls"
-      },
-      {
-        "icon": "Flame",
-        "title": "New Match Types",
-        "description": "4 new match types debut"
-      },
-      {
-        "icon": "Film",
-        "title": "Showcase",
-        "description": "CM Punk's legendary career"
-      },
-      {
-        "icon": "Briefcase",
-        "title": "MyGM",
-        "description": "Manage your WWE brand"
-      },
-      {
-        "icon": "Trophy",
-        "title": "MyRISE",
-        "description": "Create your Superstar story"
-      },
-      {
-        "icon": "Globe",
-        "title": "Universe Mode",
-        "description": "Control the WWE Universe"
-      },
-      {
-        "icon": "Palette",
-        "title": "Community Creations",
-        "description": "Download and share creations"
-      },
-      {
-        "icon": "Map",
-        "title": "The Island",
-        "description": "Faction-based battle mode"
-      },
-      {
-        "icon": "Layers",
-        "title": "MyFACTION",
-        "description": "Build your dream faction"
-      },
-      {
-        "icon": "Gift",
-        "title": "Locker Codes",
-        "description": "Active codes for rewards"
-      },
-      {
-        "icon": "Monitor",
-        "title": "PC Requirements",
-        "description": "Minimum and recommended specs"
-      },
-      {
-        "icon": "Building",
-        "title": "Arenas",
-        "description": "40+ iconic venues"
-      },
-      {
-        "icon": "Package",
-        "title": "DLC & Unlockables",
-        "description": "Season Pass and content roadmap"
-      }
+      { "icon": "Gift", "title": "Cursed Gear Codes", "description": "Track active, expired, and upcoming drops" },
+      { "icon": "ClipboardCheck", "title": "Cursed Gear Beginner Guide", "description": "Build a safe first-hour progression plan" },
+      { "icon": "MessageCircle", "title": "Cursed Gear Trello & Discord", "description": "Open official links and learn usage order" },
+      { "icon": "Shield", "title": "Cursed Gear Gears", "description": "Compare class routes before rerolls" },
+      { "icon": "Users", "title": "Cursed Gear Clans", "description": "Read rarity priorities and reroll strategy" },
+      { "icon": "Sparkles", "title": "Cursed Gear Techniques", "description": "Map unlock timing and gear synergy" },
+      { "icon": "TrendingUp", "title": "Cursed Gear Stats", "description": "Use stat presets for PvE and PvP" },
+      { "icon": "Hammer", "title": "Cursed Gear Builds", "description": "Choose practical starter build templates" },
+      { "icon": "Calendar", "title": "Cursed Gear Grade Progression", "description": "Follow milestone upgrades and exams" },
+      { "icon": "Map", "title": "Cursed Gear Expeditions", "description": "Plan objective loops and extraction timing" },
+      { "icon": "Keyboard", "title": "Cursed Gear Controls", "description": "Master keybinds and combat mechanics" },
+      { "icon": "Star", "title": "Cursed Gear Heian Rating", "description": "Spend HR with a clear upgrade order" },
+      { "icon": "Download", "title": "Cursed Gear Technique Unlock", "description": "Unlock and level cursed techniques faster" },
+      { "icon": "Package", "title": "Cursed Gear Weapons", "description": "Pair weapon styles with cybernetics" },
+      { "icon": "Home", "title": "Cursed Gear Base Building", "description": "Scale PMC and base upgrades efficiently" },
+      { "icon": "AlertTriangle", "title": "Cursed Gear Extraction Loop", "description": "Minimize wipe risk and secure Time" }
     ]
   },
   "modules": {
-    "releaseEditions": {
-      "title": "WWE 2K26 Release Date & Editions",
-      "subtitle": "Choose the edition that fits your play style",
-      "quickFacts": [
-        { "label": "Standard Release", "value": "March 13, 2026" },
-        { "label": "Premium Early Access", "value": "March 6, 2026" },
-        { "label": "Platforms", "value": "PS5, Xbox Series X|S, Steam, Switch 2" },
-        { "label": "Genre", "value": "Sports, Professional Wrestling" }
-      ],
-      "editions": [
-        {
-          "name": "Standard Edition",
-          "price": "$69.99",
-          "releaseDate": "March 13, 2026",
-          "platforms": ["PS5", "Xbox", "Steam", "Switch 2"],
-          "includes": ["WWE 2K26 base game"]
-        },
-        {
-          "name": "King of Kings Edition",
-          "price": "$99.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": ["PS5", "Xbox", "Steam", "Switch 2"],
-          "includes": [
-            "WWE 2K26 base game",
-            "King of Kings Edition Pack",
-            "Ringside Pass Premium Season 1",
-            "7-Day Early Access",
-            "Joe Hendry Pack"
-          ]
-        },
-        {
-          "name": "Attitude Era Edition",
-          "price": "$129.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": ["PS5", "Xbox", "Steam", "Switch 2"],
-          "includes": [
-            "WWE 2K26 base game",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "Ringside Pass Premium Season 1-4",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack"
-          ]
-        },
-        {
-          "name": "Monday Night War Edition",
-          "price": "$149.99",
-          "releaseDate": "March 6, 2026",
-          "platforms": ["PS5", "Xbox", "Steam", "Switch 2"],
-          "includes": [
-            "WWE 2K26 base game",
-            "Monday Night War Edition Pack",
-            "King of Kings Edition Pack",
-            "Attitude Era Edition Pack",
-            "WrestleMania 42 Pack",
-            "Ringside Pass Premium Season 1-6",
-            "7-Day Early Access",
-            "Superstar Mega-Boost",
-            "Joe Hendry Pack",
-            "32,500 VC"
-          ]
-        }
-      ],
-      "highlights": [
-        "Premium editions unlock the game 7 days early",
-        "Monday Night War Edition includes all three premium content packs",
-        "Ringside Pass expands across six seasons in premium editions"
-      ]
-    },
-    "roster": {
-      "title": "WWE 2K26 Roster",
-      "subtitle": "Browse 400+ playable Superstars and Legends",
-      "stats": [
-        { "label": "Total Superstars", "value": "400+" },
-        { "label": "New Additions", "value": "50+" },
-        { "label": "Roster Scope", "value": "Largest in franchise history" }
-      ],
-      "categories": [
-        {
-          "name": "Current Stars",
-          "superstars": ["CM Punk", "Cody Rhodes", "Rhea Ripley", "Roman Reigns", "Seth Rollins", "Becky Lynch"]
-        },
-        {
-          "name": "Legends",
-          "superstars": ["The Rock", "Triple H", "Stone Cold Steve Austin", "Undertaker", "Batista", "Chyna"]
-        },
-        {
-          "name": "New Era Highlights",
-          "superstars": ["Rey Fénix", "Rusev", "Blake Monroe", "Giulia", "Bron Breakker", "Stephanie Vaquer"]
-        },
-        {
-          "name": "Season 1 Spotlight",
-          "superstars": ["El Hijo del Vikingo", "Flammer"]
-        }
-      ]
-    },
-    "ratings": {
-      "title": "WWE 2K26 Ratings",
-      "subtitle": "Top-rated Superstars rankings",
-      "menTopRated": [
-        { "name": "Stone Cold Steve Austin", "rating": 97 },
-        { "name": "Roman Reigns '22", "rating": 97 },
-        { "name": "John Cena", "rating": 97 },
-        { "name": "John Cena '12", "rating": 96 },
-        { "name": "The Rock '01", "rating": 96 },
-        { "name": "The Undertaker", "rating": 96 },
-        { "name": "Stone Cold Steve Austin '00", "rating": 95 },
-        { "name": "The Rock", "rating": 95 },
-        { "name": "Cody Rhodes", "rating": 95 },
-        { "name": "Roman Reigns", "rating": 95 }
-      ],
-      "womenTopRated": [
-        { "name": "Rhea Ripley", "rating": 96 },
-        { "name": "Becky Lynch", "rating": 94 },
-        { "name": "Bianca Belair", "rating": 94 },
-        { "name": "Charlotte Flair", "rating": 93 },
-        { "name": "Iyo Sky", "rating": 93 },
-        { "name": "Naomi", "rating": 92 },
-        { "name": "Stephanie Vaquer", "rating": 92 },
-        { "name": "Liv Morgan", "rating": 92 },
-        { "name": "AJ Lee '15", "rating": 92 },
-        { "name": "Tiffany Stratton", "rating": 91 }
-      ],
-      "highlights": [
-        "Men's top rating: 97",
-        "Women's top rating: 96",
-        "Ratings blend current stars, legends, and alternate-era personas"
-      ]
-    },
-    "controls": {
-      "title": "WWE 2K26 Controls",
-      "subtitle": "Master the core controls for PS5, Xbox, and PC",
-      "platforms": [
-        {
-          "name": "PS5",
-          "controls": [
-            { "action": "Run", "input": "Hold L2 + Left Stick" },
-            { "action": "Grab (Grapple)", "input": "O" },
-            { "action": "Light Strike / Light Grapple", "input": "Square" },
-            { "action": "Heavy Strike / Heavy Grapple", "input": "X" },
-            { "action": "Irish Whip", "input": "O (inside Grab)" },
-            { "action": "Signature", "input": "R2 + Square" },
-            { "action": "Finisher", "input": "R2 + X" },
-            { "action": "Submission", "input": "R2 + O" },
-            { "action": "Payback", "input": "R2 + Triangle" },
-            { "action": "Reversal / Dodge", "input": "Triangle" },
-            { "action": "Block", "input": "Hold Triangle" },
-            { "action": "Pin Opponent", "input": "Right Stick Down" },
-            { "action": "Pick Up Weapon", "input": "L1" }
-          ]
-        },
-        {
-          "name": "Xbox Series X|S",
-          "controls": [
-            { "action": "Run", "input": "Hold LT + Left Stick" },
-            { "action": "Grab (Grapple)", "input": "B" },
-            { "action": "Light Strike / Light Grapple", "input": "X" },
-            { "action": "Heavy Strike / Heavy Grapple", "input": "A" },
-            { "action": "Irish Whip", "input": "B (inside Grab)" },
-            { "action": "Signature", "input": "RT + X" },
-            { "action": "Finisher", "input": "RT + A" },
-            { "action": "Submission", "input": "RT + B" },
-            { "action": "Payback", "input": "RT + Y" },
-            { "action": "Reversal / Dodge", "input": "Y" },
-            { "action": "Block", "input": "Hold Y" },
-            { "action": "Pin Opponent", "input": "Right Stick Down" },
-            { "action": "Pick Up Weapon", "input": "LB" }
-          ]
-        }
-      ],
-      "tips": [
-        "Combos chain Light and Heavy Strikes together",
-        "Breakers use the same button your opponent presses",
-        "Timed kick-out minigame uses Right Stick Up",
-        "Special Referee actions include count, rope break, warnings, and ejections"
-      ]
-    },
-    "matchTypes": {
-      "title": "WWE 2K26 New Match Types",
-      "subtitle": "Experience 4 new match types and expanded gameplay",
-      "quickFacts": [
-        { "label": "New Match Types", "value": "I Quit, Inferno, Dumpster, 3 Stages of Hell" },
-        { "label": "New Brawl Space", "value": "Scrapyard Brawl" },
-        { "label": "Mode Addition", "value": "Quick Swap in MyFACTION" }
-      ],
-      "matches": [
-        {
-          "name": "I Quit",
-          "description": "Force your opponent to say 'I Quit' to win this brutal showdown"
-        },
-        {
-          "name": "Inferno",
-          "description": "Light your opponent on fire to secure victory in this scorched-earth match"
-        },
-        {
-          "name": "Dumpster",
-          "description": "Beat down your opponent and throw them into the dumpster to win"
-        },
-        {
-          "name": "3 Stages of Hell",
-          "description": "Best-of-three challenge where each fall uses a different match type"
-        },
-        {
-          "name": "Scrapyard Brawl",
-          "description": "New brawl environment set in The Island's wasteland of wreckage"
-        }
-      ],
-      "newSystems": [
-        "Expanded Crowd Combat",
-        "Stackable Tables",
-        "Thumbtacks",
-        "Surprise Attackers",
-        "Barricade Combat",
-        "Quick Swap team knockout action"
-      ]
-    },
-    "showcase": {
-      "title": "WWE 2K26 Showcase",
-      "subtitle": "Relive CM Punk's greatest rivalries",
-      "quickFacts": [
-        { "label": "Cover Star", "value": "CM Punk" },
-        { "label": "Timeline", "value": "25+ years of WWE history" },
-        { "label": "Match Types", "value": "Historical, Fantasy, What If" }
-      ],
-      "moments": [
-        {
-          "title": "Opening Match",
-          "description": "WrestleMania 41 Triple Threat: CM Punk vs Seth Rollins vs Roman Reigns"
-        },
-        {
-          "title": "Historical Matches",
-          "description": "Faithful recreations with authentic arenas and match objectives"
-        },
-        {
-          "title": "Fantasy Warfare",
-          "description": "Dream matchups against legends who influenced Punk's journey"
-        },
-        {
-          "title": "What If Matches",
-          "description": "Alternate timeline scenarios exploring different career paths"
-        }
-      ],
-      "specialFeature": {
-        "name": "The Gauntlet",
-        "description": "Face 20 consecutive opponents as CM Punk or AJ Lee to unlock all Showcase rewards at once"
-      }
-    },
-    "mygm": {
-      "title": "WWE 2K26 MyGM",
-      "subtitle": "Run your brand with deeper booking and strategy",
-      "quickFacts": [
-        { "label": "Season Length", "value": "50 weeks" },
-        { "label": "Starting Budgets", "value": "$3M - $7M" },
-        { "label": "Avg Roster Size", "value": "20-35 Superstars" },
-        { "label": "New Difficulty", "value": "Immortal" }
-      ],
-      "features": [
-        {
-          "title": "Extended Seasons",
-          "description": "Default season length now 50 weeks with flexible budget options"
-        },
-        {
-          "title": "Expanded Match Types",
-          "description": "Book 5-way, 6-way, 8-way, triple threat tag, fatal four way tag, and handicap matches"
-        },
-        {
-          "title": "New Match Rules",
-          "description": "Ladder, Battle Royal, Bloodline Rules, I Quit, Inferno, Dumpster, 3 Stages of Hell"
-        },
-        {
-          "title": "Power Card Trading",
-          "description": "Trade Power Cards during trade weeks with option to disable Power Card Store"
-        },
-        {
-          "title": "Intergender Matches",
-          "description": "Book intergender matches with added booking cost"
-        }
-      ],
-      "ples": [
-        "Clash at Paris", "Crown Jewel", "Battleground", "Evolution",
-        "Great American Bash", "Halloween Havoc", "Night of Champions",
-        "No Mercy", "Worlds Collide", "Survivor Series: War Games",
-        "Elimination Chamber", "WrestleMania"
-      ]
-    },
-    "myrise": {
-      "title": "WWE 2K26 MyRISE",
-      "subtitle": "Fight your way back in The Comeback",
-      "quickFacts": [
-        { "label": "Story Name", "value": "The Comeback" },
-        { "label": "Main Character", "value": "The Archetype" },
-        { "label": "Theme", "value": "Return after 2-year absence" }
-      ],
-      "paths": [
-        {
-          "name": "Traditional Route",
-          "description": "Earn opportunities the right way and work back into the title picture"
-        },
-        {
-          "name": "Ruthless Route",
-          "description": "Cut corners and fast-track the comeback through aggressive tactics"
-        }
-      ],
-      "divisions": [
-        {
-          "name": "Men's Division",
-          "goal": "Earn another shot at WWE Champion Bron Breakker",
-          "opponents": ["Jey Uso", "Jacob Fatu", "Ethan Page", "The New Day", "The Wyatt Sicks"]
-        },
-        {
-          "name": "Women's Division",
-          "goal": "Chase another showdown with WWE Women's Champion Jordynne Grace",
-          "opponents": ["Naomi", "Roxanne Perez", "Kelani Jordan", "Nia Jax", "Liv Morgan", "The Wyatt Sicks"]
-        }
-      ],
-      "features": [
-        "Branching dialogue shapes story progression",
-        "WWE press conferences with player choice responses",
-        "Major final decision affects championship reign"
-      ],
-      "rewards": ["Arenas", "Championships", "CAS Parts", "Playable characters", "Weapons", "Paybacks", "MyFACTION content"]
-    },
-    "universeMode": {
-      "title": "WWE 2K26 Universe Mode",
-      "subtitle": "Build your dream WWE calendar with deeper control",
-      "quickFacts": [
-        { "label": "Setup Tool", "value": "Universe Wizard" },
-        { "label": "Max Draft Events", "value": "8" },
-        { "label": "Titles Per Show", "value": "Up to 8" },
-        { "label": "MITB Slots", "value": "2 per show" }
-      ],
-      "features": [
-        {
-          "title": "Universe Wizard",
-          "description": "Start saves faster by choosing shows, PLEs, champions, and rosters upfront"
-        },
-        {
-          "title": "WWE Draft",
-          "description": "Create and schedule Draft events where shows trade Superstars"
-        },
-        {
-          "title": "MITB Cash-Ins",
-          "description": "Briefcases can be cashed in on any eligible title on a show"
-        },
-        {
-          "title": "Enhanced Promos",
-          "description": "Self-Promos, Call-Outs, Interrupts, Open Challenges, Post-Match Interviews"
-        },
-        {
-          "title": "Matchmaking Sliders",
-          "description": "Tune match card sorting with bonuses for titles, rivalries, and match types"
-        }
-      ]
-    },
-    "communityCreations": {
-      "title": "WWE 2K26 Community Creations",
-      "subtitle": "Create bigger and more detailed custom content",
-      "quickFacts": [
-        { "label": "CAS Slots", "value": "200" },
-        { "label": "Image Slots", "value": "2,000" },
-        { "label": "Body Templates", "value": "40+" },
-        { "label": "Layer Split", "value": "60 attire + 40 head/body" }
-      ],
-      "sections": [
-        {
-          "title": "Create-a-Superstar",
-          "description": "Body morphing and improved face morphing with 40+ body templates"
-        },
-        {
-          "title": "Hair and Body Paint",
-          "description": "Two-tone hair color blending and Joy-Con 2 mouse controls for body paint"
-        },
-        {
-          "title": "Create-an-Arena",
-          "description": "LED barricades, new announcer tables, expanded ring mat and apron options"
-        },
-        {
-          "title": "Create-an-Image",
-          "description": "Image uploader limit doubled from 1,000 to 2,000 slots"
-        },
-        {
-          "title": "Create-a-Championship",
-          "description": "Expanded parts and refreshed building interface"
-        },
-        {
-          "title": "Create-an-Entrance",
-          "description": "Advanced timeline editing for champion, MITB, and stable entrances (Quad/Quint)"
-        }
-      ]
-    },
-    "theIsland": {
-      "title": "WWE 2K26 The Island",
-      "subtitle": "Choose an Order and fight for control",
-      "quickFacts": [
-        { "label": "Factions", "value": "3 Orders" },
-        { "label": "Story Chapters", "value": "3" },
-        { "label": "Prestige Tiers", "value": "4" },
-        { "label": "New PvP", "value": "2v2 PvP" }
-      ],
-      "orders": [
-        {
-          "name": "Order of Tradition",
-          "leader": "Cody Rhodes",
-          "description": "Built around ring heritage, spectacle, and old-school values"
-        },
-        {
-          "name": "Order of Shadows",
-          "leader": "Rhea Ripley",
-          "description": "Embraces the strange, theatrical, and power of intimidation"
-        },
-        {
-          "name": "Order of Anarchy",
-          "leader": "CM Punk",
-          "description": "Rejects the status quo and pushes The Island in bold new directions"
-        }
-      ],
-      "prestige": [
-        { "tier": "Recruit", "ovrRange": "70-85" },
-        { "tier": "Disruptor", "ovrRange": "75-90" },
-        { "tier": "Blueprint", "ovrRange": "80-95" },
-        { "tier": "Legendary", "ovrRange": "85-100" }
-      ],
-      "highlights": [
-        "Scrapyard: central brawl zone with hazards and climbable structures",
-        "Towers: repeatable PvE with random paths and boss fights",
-        "Weekly quests reward XP, cosmetics, and Island rewards",
-        "Seasonal Ranked Play with leaderboards for 1v1, 2v2, and Championships"
-      ]
-    },
-    "myfaction": {
-      "title": "WWE 2K26 MyFACTION",
-      "subtitle": "Build stronger lineups with chemistry and Quick Swap",
-      "quickFacts": [
-        { "label": "Lineup Size", "value": "4 Superstars" },
-        { "label": "Chemistry Traits", "value": "60 across 10 categories" },
-        { "label": "New Match Type", "value": "Quick Swap" },
-        { "label": "Launch Card Sets", "value": "Superstar Series 1, Momentum, Legends Series 1, Aftershock" }
-      ],
-      "features": [
-        {
-          "title": "Team Chemistry",
-          "description": "Positive and negative reactions affect Chemistry Score; Managers reduce negatives"
-        },
-        {
-          "title": "Intergender Support",
-          "description": "Build mixed-gender four-person lineups"
-        },
-        {
-          "title": "Quick Swap",
-          "description": "Swap teammates mid-match, share Signature/Finisher slots, win by knockout"
-        },
-        {
-          "title": "Faction Wars",
-          "description": "Deck-based progression starting with Crowd's Deck"
-        },
-        {
-          "title": "World Tour",
-          "description": "Rewards include Personas, MFP, Arc Cards, and packs across global locations"
-        }
-      ]
-    },
-    "lockerCodes": {
-      "title": "WWE 2K26 Locker Codes",
-      "subtitle": "Redeem active codes for MyFACTION rewards",
-      "quickFacts": [
-        { "label": "Mode", "value": "MyFACTION" },
-        { "label": "Active Code", "value": "BSTINTWRLD26" },
-        { "label": "Expires", "value": "March 13, 2026" }
-      ],
-      "codes": [
-        {
-          "code": "BSTINTWRLD26",
-          "rewards": ["1x Aftershock Series I Basic Pack", "1x Momentum Series I Basic Pack"],
-          "expires": "March 13, 2026"
-        }
-      ],
-      "howToRedeem": [
-        "Open WWE 2K26 from the main menu",
-        "Select Locker Codes",
-        "Enter the code exactly as shown",
-        "Redeem and open your packs in MyFACTION"
-      ]
-    },
-    "pcRequirements": {
-      "title": "WWE 2K26 PC Requirements",
-      "subtitle": "Check if your PC can run WWE 2K26",
-      "quickFacts": [
-        { "label": "OS", "value": "Windows 10 64-bit" },
-        { "label": "RAM", "value": "16 GB" },
-        { "label": "Storage", "value": "120 GB" },
-        { "label": "CPU Note", "value": "AVX2 and F16C support required" }
-      ],
-      "minimum": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-4770 or AMD Ryzen 5 1500X",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 2060 or AMD Radeon RX 5700",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "GPU must have at least 6 GB VRAM; CPU must support AVX2 and F16C"
+    "copyCode": "Copy",
+    "copied": "Copied",
+    "openLink": "Open",
+    "sectionOrder": [
+      "codes",
+      "beginner",
+      "officialLinks",
+      "gears",
+      "clans",
+      "techniques",
+      "stats",
+      "builds",
+      "gradeProgression",
+      "expeditions",
+      "controlsCombat",
+      "heianRating",
+      "techniqueUnlock",
+      "weaponsCybernetics",
+      "baseBuilding",
+      "extractionLoop"
+    ],
+    "items": {
+      "codes": {
+        "id": "cursed-gear-codes",
+        "title": "Cursed Gear Codes",
+        "subtitle": "Track code status, update timing, and redemption flow in one place.",
+        "codeEntries": [
+          { "code": "NO_ACTIVE_CODE", "status": "No publicly confirmed active Cursed Gear code right now. Check Discord and Trello announcements first." }
+        ],
+        "overview": [
+          "Cursed Gear codes are a top search entry even when none are active.",
+          "Use this section as a single status board for active and expired code windows.",
+          "Update cadence should follow Discord and Trello announcement timing."
+        ],
+        "steps": [
+          "Open Cursed Gear and check whether a redemption menu is live in the latest patch.",
+          "Paste the code exactly as published in official announcements.",
+          "Record status immediately as active, expired, or unavailable."
+        ],
+        "moduleFaq": [
+          { "q": "Are there active Cursed Gear codes now?", "a": "This tracker currently shows no publicly confirmed active Cursed Gear code." },
+          { "q": "Where should I verify Cursed Gear codes first?", "a": "Check Cursed Gear Discord announcements, then Trello and large guide hubs." }
+        ]
       },
-      "recommended": {
-        "os": "Windows 10 64-bit",
-        "processor": "Intel Core i7-7700 or AMD Ryzen 5 2600",
-        "memory": "16 GB RAM",
-        "graphics": "NVIDIA RTX 3060 or AMD Radeon RX 6700 XT",
-        "directX": "Version 12",
-        "storage": "120 GB available space",
-        "notes": "At least 12 GB VRAM; CPU must support AVX2 and F16C"
+      "beginner": {
+        "id": "cursed-gear-beginner-guide",
+        "title": "Cursed Gear Beginner Guide",
+        "subtitle": "A practical first-hour plan that favors survival and progression consistency.",
+        "overview": [
+          "Pick a forgiving first gear such as Executioner or Projector.",
+          "Lock in block, parry, dodge, and cursed energy keybind comfort before hard fights.",
+          "Put early points into durability so mistakes are recoverable.",
+          "Extract earlier runs instead of forcing risky clears."
+        ],
+        "cards": [
+          {
+            "title": "First Hour Focus",
+            "description": "Build repeatable combat habits before chasing high-risk objectives.",
+            "points": ["Practice parry timing", "Use short expedition routes", "Bank Time regularly"]
+          },
+          {
+            "title": "New Player Mistake",
+            "description": "Overcommitting for one extra objective often resets the whole run.",
+            "points": ["Avoid greed rotations", "Leave at value thresholds", "Re-enter with upgrades"]
+          },
+          {
+            "title": "Safe Growth",
+            "description": "Consistency outperforms flashy routing in early progression.",
+            "points": ["Durability first", "Clean controls setup", "Predictable extraction plan"]
+          }
+        ]
+      },
+      "officialLinks": {
+        "id": "cursed-gear-official-links",
+        "title": "Cursed Gear Trello, Discord & Wiki Links",
+        "subtitle": "Keep official and high-value references one click away.",
+        "links": [
+          { "label": "Cursed Gear Roblox Game", "url": "https://www.roblox.com/games/10154506972/Cursed-Gear", "meta": "Play link" },
+          { "label": "Monad Studios West", "url": "https://www.roblox.com/communities/15291380/Monad-Studios-West", "meta": "Developer community" },
+          { "label": "Cursed Gear Official Discord", "url": "https://discord.gg/cgofficial", "meta": "Announcements and support" },
+          { "label": "Cursed Gear Official Trello", "url": "https://trello.com/b/zyHFkkSS/cursed-gear-trello", "meta": "Systems and references" }
+        ],
+        "overview": [
+          "Discord posts are usually the fastest signal for updates.",
+          "Trello is the best static reference for systems and item pools.",
+          "Use official links first when patch notes and guides disagree."
+        ]
+      },
+      "gears": {
+        "id": "cursed-gear-gears-classes",
+        "title": "Cursed Gear Gears / Classes",
+        "subtitle": "Compare starter and advanced gear paths before rerolling.",
+        "cards": [
+          { "title": "Executioner", "description": "Stable melee route with straightforward pressure patterns.", "points": ["Strong beginner comfort", "Reliable close-range flow"] },
+          { "title": "Manipulator", "description": "Spacing-focused control route with ranged setup value.", "points": ["Great for spacing", "Technique synergy"] },
+          { "title": "Projector", "description": "High-tempo route for players who favor mobility chains.", "points": ["Fast entries", "Aggressive pressure"] }
+        ],
+        "overview": [
+          "Use class choice to define your stat plan early.",
+          "Do not reroll before you complete at least several test runs.",
+          "Pair gear selection with a clear expedition role."
+        ]
+      },
+      "clans": {
+        "id": "cursed-gear-clans",
+        "title": "Cursed Gear Clans",
+        "subtitle": "Plan rarity goals, reroll usage, and long-term clan value.",
+        "cards": [
+          { "title": "Rarity Planning", "description": "Set realistic reroll budgets before chasing top-tier outcomes.", "points": ["Track pull count", "Avoid random spend spikes"] },
+          { "title": "Royal Priorities", "description": "Reserve high-value resources for durable upgrades.", "points": ["Keep key buffers", "Prioritize repeat value"] },
+          { "title": "Team Role Fit", "description": "Clan effect value rises when matched with role and route.", "points": ["Solo survivability", "Squad utility"] }
+        ],
+        "overview": [
+          "Cursed Gear clan choices should support your build direction.",
+          "Use rerolls with milestone gating, not impulse pulls.",
+          "Clan value is highest when aligned with expedition role."
+        ]
+      },
+      "techniques": {
+        "id": "cursed-gear-techniques",
+        "title": "Cursed Gear Techniques",
+        "subtitle": "Understand unlock timing, reroll value, and combat synergy.",
+        "cards": [
+          { "title": "Unlock Logic", "description": "Map technique unlock steps to grade milestones.", "points": ["Grade gating", "Shard planning"] },
+          { "title": "Combat Fit", "description": "Technique picks should reinforce your chosen gear tempo.", "points": ["Burst windows", "Control windows"] },
+          { "title": "Upgrade Focus", "description": "Upgrade in order that improves consistency first.", "points": ["Potency", "Haste", "Efficiency"] }
+        ],
+        "overview": [
+          "Treat techniques as a progression route, not just a collectible.",
+          "Prioritize combinations that stabilize repeat runs.",
+          "Technique upgrades should match stat allocation strategy."
+        ]
+      },
+      "stats": {
+        "id": "cursed-gear-stats-guide",
+        "title": "Cursed Gear Stats Guide",
+        "subtitle": "Use practical stat presets for early progression and team roles.",
+        "cards": [
+          { "title": "Durability", "description": "Best first investment for clean early progression.", "points": ["Survive mistakes", "Enable more attempts"] },
+          { "title": "Physicality / Output", "description": "Choose based on close-range vs technique damage preference.", "points": ["Melee scaling", "Technique scaling"] },
+          { "title": "Efficiency / Awareness / Dexterity", "description": "Tune these for skill cadence, reading fights, and execution speed.", "points": ["Sustain", "Positioning", "Tempo"] }
+        ],
+        "overview": [
+          "Cursed Gear stat spread should follow your route objective.",
+          "Early survivability gives stronger total progression value.",
+          "Use presets, then refine around your best-performing runs."
+        ]
+      },
+      "builds": {
+        "id": "cursed-gear-best-builds",
+        "title": "Cursed Gear Best Builds",
+        "subtitle": "Starter-ready build paths for PvE tempo and safer extraction.",
+        "cards": [
+          { "title": "Balanced Expedition Build", "description": "Durability-first setup with stable damage uptime.", "points": ["Safe opening", "Reliable evac"] },
+          { "title": "Pressure Build", "description": "Faster engagements with controlled risk windows.", "points": ["Quick fights", "Cooldown discipline"] },
+          { "title": "Technique-Centric Build", "description": "Resource-efficient setup centered on cursed technique loops.", "points": ["Skill cadence", "Energy management"] }
+        ],
+        "overview": [
+          "A valid Cursed Gear build should define both engage and disengage plans.",
+          "Build value depends on extraction consistency, not single run highlights.",
+          "Compare builds by completion consistency and Time secured."
+        ]
+      },
+      "gradeProgression": {
+        "id": "cursed-gear-grade-progression",
+        "title": "Cursed Gear Grade Progression",
+        "subtitle": "Track key grade milestones and unlock timing efficiently.",
+        "steps": [
+          "Complete stable mission loops to secure consistent Time income.",
+          "Push grade exams with a build tuned for survivability.",
+          "Use milestone upgrades immediately after each grade jump.",
+          "Revisit route difficulty only after loadout consistency improves."
+        ],
+        "overview": [
+          "Cursed Gear grade progression is strongest when tied to milestone checkpoints.",
+          "Grade jumps should trigger controlled build and stat updates.",
+          "Progression speed rises when wipe frequency is contained."
+        ]
+      },
+      "expeditions": {
+        "id": "cursed-gear-expeditions-guide",
+        "title": "Cursed Gear Expeditions Guide",
+        "subtitle": "Run objective loops that maximize value while preserving extraction rate.",
+        "cards": [
+          { "title": "Route Planning", "description": "Open with high-confidence objectives and clear fallback exits.", "points": ["Start simple", "Scale risk later"] },
+          { "title": "Squad Sync", "description": "Assign one objective lead and one extraction caller.", "points": ["Role clarity", "Faster pivots"] },
+          { "title": "Time Efficiency", "description": "Lock decision thresholds before entering high-risk zones.", "points": ["Planned retreats", "No panic pathing"] }
+        ],
+        "overview": [
+          "Cursed Gear expeditions reward disciplined routing more than greed plays.",
+          "Extraction timing is a core progression skill.",
+          "Consistent partial clears outperform wipe-prone full clears."
+        ]
+      },
+      "controlsCombat": {
+        "id": "cursed-gear-controls-combat",
+        "title": "Cursed Gear Controls & Combat Mechanics",
+        "subtitle": "Improve fight consistency through keybind setup and timing drills.",
+        "cards": [
+          { "title": "Core Inputs", "description": "Block, parry, dodge, sprint attack, and cursed skill keys should be muscle memory.", "points": ["Low input delay", "Comfort mapping"] },
+          { "title": "Timing Priority", "description": "Parry and dodge timing accuracy defines survivability in pressure fights.", "points": ["Practice windows", "Read animation starts"] },
+          { "title": "Mechanic Chains", "description": "Link defensive timing into controlled counter windows.", "points": ["Parry to punish", "Reset spacing"] }
+        ],
+        "overview": [
+          "Cursed Gear combat control quality directly affects progression speed.",
+          "Better mechanics reduce resource waste across long sessions.",
+          "Train consistency first, then optimize damage windows."
+        ]
+      },
+      "heianRating": {
+        "id": "cursed-gear-heian-rating",
+        "title": "Cursed Gear Heian Rating & Skill Tree",
+        "subtitle": "Spend HR in a stable order that compounds progression value.",
+        "steps": [
+          "Reserve HR for upgrades that increase repeat run success.",
+          "Prioritize options that improve survival and objective uptime.",
+          "Delay niche spending until baseline route is stable."
+        ],
+        "overview": [
+          "Cursed Gear HR spending should be milestone-driven.",
+          "A consistent upgrade order prevents resource drift.",
+          "Use HR to stabilize your main build before experimenting."
+        ]
+      },
+      "techniqueUnlock": {
+        "id": "cursed-gear-technique-unlock-upgrades",
+        "title": "Cursed Gear Technique Unlock & Upgrades",
+        "subtitle": "Follow the unlock path from shards to sustained technique scaling.",
+        "steps": [
+          "Reach grade milestones tied to technique unlock eligibility.",
+          "Collect and combine required shards into unlock resources.",
+          "Upgrade potency, haste, and efficiency in practical order."
+        ],
+        "overview": [
+          "Cursed Gear technique unlock is a milestone route, not random grind.",
+          "Upgrade order should mirror your combat tempo needs.",
+          "Sustained scaling beats one-off spike planning."
+        ]
+      },
+      "weaponsCybernetics": {
+        "id": "cursed-gear-weapons-cybernetics",
+        "title": "Cursed Gear Weapons & Cybernetics",
+        "subtitle": "Align weapon handling and cybernetic bonuses with your build role.",
+        "cards": [
+          { "title": "Weapon Rhythm", "description": "Choose weapon families that fit your reaction and spacing habits.", "points": ["Combo comfort", "Recovery control"] },
+          { "title": "Cybernetic Value", "description": "Use bonus lines that reinforce your chosen route objective.", "points": ["Defense utility", "Damage utility"] },
+          { "title": "Loadout Balance", "description": "Avoid overstacking one strength while exposing major weakness.", "points": ["Sustain", "Burst", "Escape"] }
+        ],
+        "overview": [
+          "Cursed Gear loadouts should be tested in repeated expedition loops.",
+          "Weapon and cybernetic synergy is more important than raw rarity.",
+          "Use upgrades that preserve consistency under pressure."
+        ]
+      },
+      "baseBuilding": {
+        "id": "cursed-gear-base-building-pmc",
+        "title": "Cursed Gear Base Building / PMC",
+        "subtitle": "Scale your base systems to support long-session progression output.",
+        "cards": [
+          { "title": "Upgrade Order", "description": "Open with modules that improve run turnaround and safety.", "points": ["Core economy first", "Utility before luxury"] },
+          { "title": "PMC Planning", "description": "Use base systems to reduce downtime between key runs.", "points": ["Faster prep", "Predictable loops"] },
+          { "title": "Sustain Strategy", "description": "Treat base growth as a multiplier for all future sessions.", "points": ["Compounding value", "Lower recovery cost"] }
+        ],
+        "overview": [
+          "Cursed Gear base building is a major progression multiplier.",
+          "Smart base sequencing raises total Time efficiency.",
+          "PMC planning should support your primary expedition route."
+        ]
+      },
+      "extractionLoop": {
+        "id": "cursed-gear-extraction-survival-loop",
+        "title": "Cursed Gear Extraction & Survival Loop",
+        "subtitle": "Control risk and secure gains with disciplined extraction decisions.",
+        "cards": [
+          { "title": "Risk Threshold", "description": "Set retreat triggers before entering contested zones.", "points": ["Health threshold", "Resource threshold"] },
+          { "title": "Reward Discipline", "description": "Bank progress often to preserve long-term momentum.", "points": ["Secure Time", "Avoid wipe chains"] },
+          { "title": "Loop Stability", "description": "A stable loop outperforms occasional high-roll clears.", "points": ["Repeatability", "Lower variance"] }
+        ],
+        "moduleFaq": [
+          { "q": "Why is Cursed Gear extraction timing so important?", "a": "Cursed Gear progression depends on secured runs, and extraction timing protects gained Time and upgrade momentum." },
+          { "q": "Should Cursed Gear players push one more objective before leaving?", "a": "In Cursed Gear, consistent extraction usually yields stronger long-term growth than a final high-risk objective." }
+        ],
+        "overview": [
+          "Cursed Gear survival loop quality determines progression consistency.",
+          "Clear retreat logic prevents avoidable wipes.",
+          "Extraction discipline compounds over every session."
+        ]
       }
-    },
-    "arenas": {
-      "title": "WWE 2K26 Arenas",
-      "subtitle": "Explore 40+ arenas across modern, classic, and original venues",
-      "quickFacts": [
-        { "label": "Arena Count", "value": "40+" },
-        { "label": "New Venues", "value": "SummerSlam 2025, Clash in Paris, WrestlePalooza" },
-        { "label": "Classic Highlights", "value": "WCW Nitro 1998, ECW One Night Stand 2006, Raw Is War 1998" }
-      ],
-      "categories": [
-        {
-          "name": "Current Weekly Shows",
-          "arenas": ["Raw 2025", "SmackDown 2025", "NXT 2025", "Main Event 2025"]
-        },
-        {
-          "name": "Premium Live Events",
-          "arenas": [
-            "Royal Rumble 2025", "Elimination Chamber 2025", "WrestleMania 41",
-            "Backlash 2025", "Money in the Bank 2025", "Night of Champions 2025",
-            "Evolution 2025", "SummerSlam 2025", "Clash in Paris",
-            "Survivor Series: WarGames 2025", "WrestleMania 42"
-          ]
-        },
-        {
-          "name": "Classic Arenas",
-          "arenas": [
-            "ECW Hardcore Heaven 1994", "ECW One Night Stand 2006",
-            "Raw 2002", "Raw 2013", "Raw Is War 1998",
-            "SmackDown! 2002", "WCW Halloween Havoc 1997",
-            "WCW Nitro 1998", "WCW Thunder 1998",
-            "WWE SummerSlam 2008", "WWE WrestleMania 29",
-            "WWE WrestleMania 32", "WWE WrestleMania 35"
-          ]
-        },
-        {
-          "name": "Original and Brawl Spaces",
-          "arenas": [
-            "Archetypal Gym", "Arena Estatal", "BCW", "Club UK",
-            "Wrestling Convention (Grapple Legends)", "Backstage Brawl",
-            "NXT Parking Lot", "The Scrapyard"
-          ]
-        }
-      ]
-    },
-    "dlcUnlockables": {
-      "title": "WWE 2K26 DLC & Unlockables",
-      "subtitle": "Track every major post-launch reward path",
-      "quickFacts": [
-        { "label": "Ringside Pass Seasons", "value": "6" },
-        { "label": "Tiers Per Season", "value": "40" },
-        { "label": "Free Track Rewards", "value": "60" },
-        { "label": "Total Rewards", "value": "120" }
-      ],
-      "seasons": [
-        { "season": "Season 1", "release": "March 6, 2026" },
-        { "season": "Season 2", "release": "April 2026" },
-        { "season": "Season 3", "release": "June 2026" },
-        { "season": "Season 4", "release": "July 2026" },
-        { "season": "Season 5", "release": "September 2026" },
-        { "season": "Season 6", "release": "October 2026" }
-      ],
-      "editionPacks": [
-        {
-          "name": "King of Kings Edition Pack",
-          "includes": ["Triple H '98", "Stephanie McMahon '00", "Triple H Signature Taunt"]
-        },
-        {
-          "name": "Attitude Era Edition Pack",
-          "includes": [
-            "The Rock '99", "Kane '98", "Chyna '97",
-            "Stone Cold Steve Austin EVO Card", "The Rock EVO Card",
-            "Raw Is War '98 arena"
-          ]
-        },
-        {
-          "name": "Monday Night War Edition Pack",
-          "includes": [
-            "Shawn Michaels DX", "Macho Man Randy Savage '98",
-            "Rowdy Roddy Piper '98", "WCW Thunder '98 arena"
-          ]
-        },
-        {
-          "name": "WrestleMania 42 Pack",
-          "includes": ["WrestleMania 42 arena", "WM42 Persona #1", "WM42 Persona #2", "WM42 Persona #3"]
-        }
-      ],
-      "unlockExamples": [
-        { "name": "AJ Lee", "source": "Showcase: What If Match #7" },
-        { "name": "Alundra Blayze '94", "source": "Ringside Pass #1 Free Track Tier 5" },
-        { "name": "Andre The Giant", "source": "Ringside Pass #1 Free Track Tier 4" },
-        { "name": "El Hijo del Vikingo", "source": "Ringside Pass #1 Premium Track Tier 1" },
-        { "name": "Flammer", "source": "Ringside Pass #1 Premium Track Tier 7" },
-        { "name": "Main Event R-Truth", "source": "MyRISE" },
-        { "name": "Dusty Rhodes '89", "source": "MyRISE" },
-        { "name": "Brock Lesnar '13", "source": "Showcase: Historical Match #7" }
-      ]
     }
   },
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about WWE 2K26",
+    "subtitle": "Everything you need to know about Cursed Gear",
     "questions": [
       {
-        "question": "When is WWE 2K26 released?",
-        "answer": "WWE 2K26 standard edition releases on March 13, 2026. Deluxe editions get early access starting March 6, 2026."
+        "question": "Are there active Cursed Gear codes right now?",
+        "answer": "The Cursed Gear homepage code tracker currently shows no publicly confirmed active code and highlights official places to verify updates."
       },
       {
-        "question": "How many superstars are in WWE 2K26?",
-        "answer": "WWE 2K26 features over 400 playable superstars, including legends, current roster, and DLC characters."
+        "question": "What is the best first build path in Cursed Gear?",
+        "answer": "Most Cursed Gear players get cleaner early progression with durability-first setup, controlled expeditions, and earlier extractions."
       },
       {
-        "question": "What platforms is WWE 2K26 available on?",
-        "answer": "WWE 2K26 is available on PS5, Xbox Series X|S, Steam (PC), and Nintendo Switch 2."
+        "question": "Which links should I check first for Cursed Gear updates?",
+        "answer": "Check Cursed Gear Discord announcements first, then the official Trello board for structured system references."
       },
       {
-        "question": "How do I redeem WWE 2K26 locker codes?",
-        "answer": "Go to MyFACTION mode, select the Locker Code menu, and enter the code. Check our codes page for the latest active codes."
+        "question": "How should I approach Cursed Gear grade progression?",
+        "answer": "Use milestone-based Cursed Gear progression with stable build updates at each grade jump instead of forcing risky spikes."
       },
       {
-        "question": "What are the new match types in WWE 2K26?",
-        "answer": "WWE 2K26 introduces 4 new match types including Inferno Match, Dumpster Match, Three Stages of Hell, and I Quit Match."
+        "question": "How do Cursed Gear techniques fit into build planning?",
+        "answer": "Cursed Gear techniques should match your gear tempo and stat priorities, then scale through practical potency, haste, and efficiency upgrades."
       },
       {
-        "question": "What game modes are in WWE 2K26?",
-        "answer": "WWE 2K26 includes MyGM, MyRISE, Universe Mode, Showcase (CM Punk), The Island, MyFACTION, and Creation Suite."
+        "question": "Why does Cursed Gear extraction discipline matter so much?",
+        "answer": "Cursed Gear extraction discipline secures Time and prevents wipe chains, which is the fastest route to consistent long-term growth."
       }
     ]
   },
@@ -791,18 +408,20 @@
   "footer": {
     "title": "Cursed Gear Wiki",
     "description": "Your community hub for Cursed Gear codes, gears, techniques, clans, expeditions, and progression guides.",
-    "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
-    "twitter": "Trello",
-    "reddit": "Monad Studios West",
-    "youtube": "Official Trailer",
-    "instagram": "Official Game Page",
-    "about": "About",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "copyrightNotice": "Copyright",
+    "communityLinks": [
+      { "label": "Cursed Gear Official Discord", "url": "https://discord.gg/cgofficial" },
+      { "label": "Cursed Gear Official Trello", "url": "https://trello.com/b/zyHFkkSS/cursed-gear-trello" },
+      { "label": "Monad Studios West", "url": "https://www.roblox.com/communities/15291380/Monad-Studios-West" },
+      { "label": "Cursed Gear Roblox Game", "url": "https://www.roblox.com/games/10154506972/Cursed-Gear" }
+    ],
+    "legalLinks": [
+      { "label": "Roblox Terms of Use", "url": "https://en.help.roblox.com/hc/en-us/articles/115004647846" },
+      { "label": "Roblox Community Standards", "url": "https://en.help.roblox.com/hc/en-us/articles/203313410" },
+      { "label": "Discord Community Guidelines", "url": "https://discord.com/guidelines" },
+      { "label": "Discord Terms of Service", "url": "https://discord.com/terms" }
+    ],
     "copyright": "© 2026 Cursed Gear Wiki. Not affiliated with Roblox Corporation or Monad Studios West.",
     "disclaimer": "Unofficial fan-made resource website."
   }
