@@ -9,29 +9,29 @@
   "retry_attempts": 2,
   "retry_delay": 5,
 
-  "languages": ["es", "pt", "de", "fr", "ja", "ar", "ko"],
+  "languages": ["pt", "es", "ja", "ko", "fr", "de", "th"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "WWE 2K26",
-    "es": "WWE 2K26",
-    "pt": "WWE 2K26",
-    "de": "WWE 2K26",
-    "fr": "WWE 2K26",
-    "ja": "WWE 2K26",
-    "ar": "WWE 2K26",
-    "ko": "WWE 2K26"
+    "en": "Cursed Gear",
+    "pt": "Cursed Gear",
+    "es": "Cursed Gear",
+    "ja": "スレイヤーバウンド",
+    "ko": "슬레이어바운드",
+    "fr": "Cursed Gear",
+    "de": "Cursed Gear",
+    "th": "Cursed Gear"
   },
 
   "lang_names": {
-    "es": "Spanish",
     "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "fr": "French",
+    "es": "Spanish",
     "ja": "Japanese",
-    "ar": "Arabic",
-    "ko": "Korean"
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "th": "Thai"
   },
 
   "batch_size": 20,
