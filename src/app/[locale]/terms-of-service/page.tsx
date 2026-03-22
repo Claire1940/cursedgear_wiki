@@ -9,15 +9,15 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wwe2k26.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://cursedgear.wiki'
   const path = '/terms-of-service'
 
   return {
-    title: "Terms of Service - WWE 2K26 Wiki",
-    description: "Read the Terms of Service for WWE 2K26 Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our wrestling game resource platform.",
+    title: "Terms of Service - Cursed Gear Wiki",
+    description: "Read the Terms of Service for Cursed Gear Wiki. Learn about user responsibilities, content usage guidelines, and legal terms for using our wrestling game resource platform.",
     keywords: [
       'terms of service',
-      "WWE 2K26 Wiki terms",
+      "Cursed Gear Wiki terms",
       'user agreement',
       'legal terms',
       'usage policy',
@@ -37,22 +37,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: "WWE 2K26 Wiki",
-      title: "Terms of Service - WWE 2K26 Wiki",
-      description: "Terms and conditions for using WWE 2K26 Wiki.",
+      siteName: "Cursed Gear Wiki",
+      title: "Terms of Service - Cursed Gear Wiki",
+      description: "Terms and conditions for using Cursed Gear Wiki.",
       images: [
         {
           url: `${siteUrl}/og-image.jpg`,
           width: 1200,
           height: 630,
-          alt: "WWE 2K26 Wiki",
+          alt: "Cursed Gear Wiki",
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: "Terms of Service - WWE 2K26 Wiki",
-      description: "Terms and conditions for using WWE 2K26 Wiki.",
+      title: "Terms of Service - Cursed Gear Wiki",
+      description: "Terms and conditions for using Cursed Gear Wiki.",
       images: [`${siteUrl}/og-image.jpg`],
     },
     alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
@@ -69,10 +69,10 @@ export default function TermsOfService() {
             Terms of Service
           </h1>
           <p className="text-slate-300 text-lg mb-2">
-            Terms and conditions for using WWE 2K26 Wiki
+            Terms and conditions for using Cursed Gear Wiki
           </p>
           <p className="text-slate-400 text-sm">
-            Last Updated: March 6, 2026
+            Last Updated: March 22, 2026
           </p>
         </div>
       </section>
@@ -83,18 +83,18 @@ export default function TermsOfService() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>1. Acceptance of Terms</h2>
             <p>
-              By accessing and using WWE 2K26 Wiki ("the Website", "we", "our", or "us"), you agree to be bound
+              By accessing and using Cursed Gear Wiki ("the Website", "we", "our", or "us"), you agree to be bound
               by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use our Website.
             </p>
             <p>
-              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and WWE 2K26 Wiki.
+              These Terms constitute a legally binding agreement between you ("User", "you", or "your") and Cursed Gear Wiki.
               Your continued use of the Website signifies your acceptance of these Terms and any future modifications.
             </p>
 
             <h2>2. Description of Service</h2>
             <p>
-              WWE 2K26 Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
-              and resources related to the WWE 2K26 wrestling game. Our services include, but are not limited to:
+              Cursed Gear Wiki is an unofficial, community-driven fan website that provides information, guides, tools,
+              and resources related to the Cursed Gear wrestling game. Our services include, but are not limited to:
             </p>
             <ul>
               <li>Roster information and ratings</li>
@@ -105,8 +105,8 @@ export default function TermsOfService() {
               <li>Community discussion and content</li>
             </ul>
             <p>
-              <strong>Important:</strong> WWE 2K26 Wiki is NOT affiliated with, endorsed by, or associated with
-              2K Sports, Visual Concepts, or WWE. We are an independent fan community.
+              <strong>Important:</strong> Cursed Gear Wiki is NOT affiliated with, endorsed by, or associated with
+              Roblox Corporation or Monad Studios West. We are an independent fan community.
             </p>
 
             <h2>3. User Responsibilities</h2>
@@ -137,14 +137,14 @@ export default function TermsOfService() {
             <h3>4.1 Website Content</h3>
             <p>
               The Website and its original content, features, and functionality (including but not limited to text,
-              graphics, logos, images, and software) are owned by WWE 2K26 Wiki and are protected by international
+              graphics, logos, images, and software) are owned by Cursed Gear Wiki and are protected by international
               copyright, trademark, and other intellectual property laws.
             </p>
 
             <h3>4.2 Game Content</h3>
             <p>
               All game-related content, including but not limited to character images, game screenshots, logos, and
-              trademarks, are the property of 2K Sports, Visual Concepts, and/or WWE. We use such
+              trademarks, are the property of Roblox Corporation and/or Monad Studios West. We use such
               content under fair use principles for informational and educational purposes only.
             </p>
 
@@ -172,7 +172,7 @@ export default function TermsOfService() {
 
             <h2>6. Limitation of Liability</h2>
             <p>
-              TO THE FULLEST EXTENT PERMITTED BY LAW, WWE 2K26 WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
+              TO THE FULLEST EXTENT PERMITTED BY LAW, CURSED GEAR WIKI SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL,
               SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, WHETHER INCURRED DIRECTLY
               OR INDIRECTLY, OR ANY LOSS OF DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM:
             </p>
@@ -258,7 +258,7 @@ export default function TermsOfService() {
             <h2>13. Entire Agreement</h2>
             <p>
               These Terms, together with our Privacy Policy and Copyright Notice, constitute the entire agreement between
-              you and WWE 2K26 Wiki regarding the use of the Website and supersede any prior agreements or understandings.
+              you and Cursed Gear Wiki regarding the use of the Website and supersede any prior agreements or understandings.
             </p>
 
             <h2>14. Contact Information</h2>
@@ -266,7 +266,7 @@ export default function TermsOfService() {
               If you have any questions, concerns, or feedback regarding these Terms of Service, please contact us at:
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:legal@wwe2k26.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@wwe2k26.wiki</a>
+              <strong>Email:</strong> <a href="mailto:legal@cursedgear.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">legal@cursedgear.wiki</a>
             </p>
             <p>
               We will respond to all inquiries within a reasonable timeframe.

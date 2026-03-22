@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "WWE 2K26 Wiki - Roster, Ratings, Modes & Guides",
-      "description": "WWE 2K26 Wiki covers roster, ratings, locker codes, match types, MyGM, MyRISE, Universe, and The Island guides for PS5, Xbox, Steam, and Switch 2.",
-      "keywords": "WWE 2K26, WWE 2K26 roster, WWE 2K26 ratings, WWE 2K26 locker codes, WWE 2K26 MyGM",
-      "ogTitle": "WWE 2K26 Wiki - Roster, Ratings, Modes & Guides",
-      "ogDescription": "WWE 2K26 Wiki covers roster, ratings, locker codes, match types, MyGM, MyRISE, Universe, and The Island guides for PS5, Xbox, Steam, and Switch 2.",
-      "twitterTitle": "WWE 2K26 Wiki - Roster, Ratings, Modes & Guides",
-      "twitterDescription": "WWE 2K26 Wiki covers roster, ratings, locker codes, match types, and game mode guides."
+      "title": "Cursed Gear Wiki - Codes, Gears, Techniques, Builds & Guides",
+      "description": "Cursed Gear wiki hub with beginner guides, gear builds, cursed techniques, clans, expeditions, stats, controls, and progression content for Roblox players.",
+      "keywords": "cursed gear, cursed gear wiki, cursed gear codes, cursed gear gear tier list, cursed gear technique tier list, cursed gear clan tier list, cursed gear builds, cursed gear stats, cursed gear expeditions, cursed gear controls",
+      "ogTitle": "Cursed Gear Wiki - Codes, Gears, Techniques, Builds & Guides",
+      "ogDescription": "Cursed Gear wiki hub with beginner guides, gear builds, cursed techniques, clans, expeditions, stats, controls, and progression content for Roblox players.",
+      "twitterTitle": "Cursed Gear Wiki - Codes, Gears, Techniques, Builds & Guides",
+      "twitterDescription": "Track Cursed Gear guides, systems, and progression updates for Roblox players."
     }
   },
   "nav": {},
@@ -26,27 +26,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Official Wrestling Sim with 400+ Superstars",
-    "title": "WWE 2K26 Wiki",
-    "description": "Track the full roster, ratings, match types, editions, and mode guides for WWE 2K26, from CM Punk Showcase to The Island, MyGM, MyRISE, and Universe.",
-    "getFreeCodesCTA": "Get Free Codes",
-    "playOnRobloxCTA": "Buy WWE 2K26",
+    "badge": "Roblox Action RPG Wiki",
+    "title": "Cursed Gear Wiki",
+    "description": "Track the latest Cursed Gear guides for gears, techniques, clans, expeditions, builds, stats, and progression. Use this hub to plan your early game and compare your options.",
+    "getFreeCodesCTA": "Join Cursed Gear Discord",
+    "playOnRobloxCTA": "Play Cursed Gear on Roblox",
     "stats": {
       "stat1": {
-        "value": "2026-03-13",
-        "label": "Standard Release"
+        "value": "633.5K+",
+        "label": "Total Visits"
       },
       "stat2": {
-        "value": "400+",
-        "label": "Playable Superstars"
+        "value": "58",
+        "label": "Clans Available"
       },
       "stat3": {
-        "value": "40+",
-        "label": "Arenas"
+        "value": "9",
+        "label": "Gears Available"
       },
       "stat4": {
-        "value": "4",
-        "label": "New Match Types"
+        "value": "0",
+        "label": "Active Codes"
       }
     }
   },
@@ -783,27 +783,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Step Into the Ring?",
-    "description": "Join the WWE 2K26 community on Discord for updates, roster reveals, and gameplay discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Buy WWE 2K26"
+    "title": "Ready to Build Your Cursed Gear Setup?",
+    "description": "Join the official Cursed Gear Discord for updates, then jump into Roblox to start your clan, gear, and technique progression.",
+    "joinCommunity": "Join Cursed Gear Discord",
+    "joinGame": "Play Cursed Gear on Roblox"
   },
   "footer": {
-    "title": "WWE 2K26 Wiki",
-    "description": "Your complete resource hub for WWE 2K26 roster, ratings, locker codes, match types, and game mode guides.",
+    "title": "Cursed Gear Wiki",
+    "description": "Your community hub for Cursed Gear codes, gears, techniques, clans, expeditions, and progression guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "reddit": "Reddit",
-    "youtube": "YouTube",
-    "instagram": "Instagram",
+    "twitter": "Trello",
+    "reddit": "Monad Studios West",
+    "youtube": "Official Trailer",
+    "instagram": "Official Game Page",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 WWE 2K26 Wiki. Not affiliated with 2K Sports, Visual Concepts, or WWE.",
+    "copyright": "© 2026 Cursed Gear Wiki. Not affiliated with Roblox Corporation or Monad Studios West.",
     "disclaimer": "Unofficial fan-made resource website."
   }
 }
