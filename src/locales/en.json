@@ -69,8 +69,8 @@
       { "icon": "Hammer", "title": "Cursed Gear Builds", "description": "Choose practical starter build templates" },
       { "icon": "Calendar", "title": "Cursed Gear Grade Progression", "description": "Follow milestone upgrades and exams" },
       { "icon": "Map", "title": "Cursed Gear Expeditions", "description": "Plan objective loops and extraction timing" },
-      { "icon": "Keyboard", "title": "Cursed Gear Controls", "description": "Master keybinds and combat mechanics" },
-      { "icon": "Star", "title": "Cursed Gear Heian Rating", "description": "Spend HR with a clear upgrade order" },
+      { "icon": "Keyboard", "title": "Cursed Gear Controls & Combat Mechanics", "description": "Use keybinds and advanced mechanics with cleaner timing" },
+      { "icon": "Star", "title": "Cursed Gear Heian Rating & Skill Tree", "description": "Spend HR with upgrade-first decision rules" },
       { "icon": "Download", "title": "Cursed Gear Technique Unlock", "description": "Unlock and level cursed techniques faster" },
       { "icon": "Package", "title": "Cursed Gear Weapons", "description": "Pair weapon styles with cybernetics" },
       { "icon": "Home", "title": "Cursed Gear Base Building", "description": "Scale PMC and base upgrades efficiently" },
@@ -288,62 +288,114 @@
       "gradeProgression": {
         "id": "cursed-gear-grade-progression",
         "title": "Cursed Gear Grade Progression",
-        "subtitle": "Track key grade milestones and unlock timing efficiently.",
+        "subtitle": "Map power milestones from early leveling into Grade 4 technique unlock and later rank-up loops.",
         "steps": [
-          "Complete stable mission loops to secure consistent Time income.",
-          "Push grade exams with a build tuned for survivability.",
-          "Use milestone upgrades immediately after each grade jump.",
-          "Revisit route difficulty only after loadout consistency improves."
+          "Farm Time and basic resources in short expeditions.",
+          "Use chairs and progression systems to improve core stats.",
+          "Reach Grade 4 and prepare for cursed technique unlock flow.",
+          "Enter hourly 1v1 or grade-exam style progression when ready for rank boosts."
+        ],
+        "cards": [
+          { "icon": "BadgeCheck", "title": "Grade 4", "description": "Frequently cited as the cursed technique unlock breakpoint.", "points": ["Major unlock milestone", "Build path shifts begin"] },
+          { "icon": "Swords", "title": "Grade Exams", "description": "Hourly competitive progression moments that can accelerate power growth.", "points": ["Rank-up pressure points", "Strong progression catalyst"] },
+          { "icon": "TimerReset", "title": "500+ Time Runs", "description": "A useful mid-game benchmark after players graduate from safe extraction loops.", "points": ["Mid-game consistency check", "Signals route maturity"] }
         ],
         "overview": [
-          "Cursed Gear grade progression is strongest when tied to milestone checkpoints.",
-          "Grade jumps should trigger controlled build and stat updates.",
-          "Progression speed rises when wipe frequency is contained."
+          "Cursed Gear grade progression performs best when tied to clear milestone checkpoints.",
+          "Grade jumps should trigger controlled build and stat updates, not random respec swings.",
+          "Progression speed improves when players convert safe runs into consistent rank momentum."
+        ],
+        "moduleFaq": [
+          { "q": "When do I unlock my cursed technique in Cursed Gear?", "a": "Around the Grade 4 milestone, usually aligned with the shard-to-crystal unlock flow." },
+          { "q": "What is the fastest early progression loop in Cursed Gear?", "a": "Short expeditions, focused loot conversion, and timely extraction usually outperform risky full clears." }
         ]
       },
       "expeditions": {
         "id": "cursed-gear-expeditions-guide",
         "title": "Cursed Gear Expeditions Guide",
-        "subtitle": "Run objective loops that maximize value while preserving extraction rate.",
+        "subtitle": "Learn expedition objectives, risk filters, and extraction timing that preserve progression.",
         "cards": [
-          { "title": "Route Planning", "description": "Open with high-confidence objectives and clear fallback exits.", "points": ["Start simple", "Scale risk later"] },
-          { "title": "Squad Sync", "description": "Assign one objective lead and one extraction caller.", "points": ["Role clarity", "Faster pivots"] },
-          { "title": "Time Efficiency", "description": "Lock decision thresholds before entering high-risk zones.", "points": ["Planned retreats", "No panic pathing"] }
+          { "icon": "PackageSearch", "title": "Caches", "description": "Primary low-risk loot source for Time and items.", "points": ["Safe economy anchor", "Reliable route opener"] },
+          { "icon": "Flame", "title": "Veils", "description": "Enemy-spawning encounter points with higher risk and better reward potential.", "points": ["Higher pressure", "Better loot upside"] },
+          { "icon": "Cpu", "title": "Generators / Encryptions", "description": "Mechanic-style objectives that add route variety and knowledge checks.", "points": ["Map knowledge value", "Team coordination checks"] },
+          { "icon": "DoorOpen", "title": "Evac Points", "description": "The most important safety valve for preserving run progress.", "points": ["Progress protection", "Wipe prevention"] }
         ],
         "overview": [
-          "Cursed Gear expeditions reward disciplined routing more than greed plays.",
-          "Extraction timing is a core progression skill.",
-          "Consistent partial clears outperform wipe-prone full clears."
+          "Cursed Gear expeditions can be played solo or with a party of up to four.",
+          "The correct beginner goal is not full clear; it is clean extraction with useful resources.",
+          "Higher tiers increase both expedition challenge and PvP pressure."
+        ],
+        "steps": [
+          "Enter expedition.",
+          "Prioritize caches and low-risk objectives.",
+          "Take selected fights instead of all fights.",
+          "Head to evac before greed turns a good run into a wipe."
         ]
       },
       "controlsCombat": {
-        "id": "cursed-gear-controls-combat",
+        "id": "cursed-gear-controls-combat-mechanics",
         "title": "Cursed Gear Controls & Combat Mechanics",
-        "subtitle": "Improve fight consistency through keybind setup and timing drills.",
+        "subtitle": "Use keybind clarity and mechanic timing to improve consistency in PvE and PvP.",
+        "infoTable": {
+          "columns": ["Action", "Key"],
+          "rows": [
+            ["Movement", "WASD"],
+            ["Jump", "Space"],
+            ["Sprint", "Shift"],
+            ["Light Attack", "M1"],
+            ["Heavy Attack", "M2"],
+            ["Dodge", "Q"],
+            ["Block", "F"],
+            ["Cursed Energy", "E / MMB"],
+            ["Gear Skill", "V"],
+            ["Skill Tree", "M"],
+            ["Build Mode", "U"]
+          ]
+        },
         "cards": [
-          { "title": "Core Inputs", "description": "Block, parry, dodge, sprint attack, and cursed skill keys should be muscle memory.", "points": ["Low input delay", "Comfort mapping"] },
-          { "title": "Timing Priority", "description": "Parry and dodge timing accuracy defines survivability in pressure fights.", "points": ["Practice windows", "Read animation starts"] },
-          { "title": "Mechanic Chains", "description": "Link defensive timing into controlled counter windows.", "points": ["Parry to punish", "Reset spacing"] }
+          { "icon": "Wind", "title": "Curse Dodge", "description": "E + Q gives a stronger iframe-style dodge than basic movement alone.", "points": ["Better escape windows", "Punishes panic movement"] },
+          { "icon": "ShieldCheck", "title": "Parry", "description": "E + F is critical for draining enemy stamina and turning defense into offense.", "points": ["Stamina pressure", "Counter setup control"] },
+          { "icon": "Zap", "title": "Cursed Energy Timing", "description": "Matching M1 with cursed energy creates stun and combo extension pressure.", "points": ["Combo extension", "Burst timing value"] },
+          { "icon": "Gauge", "title": "Sprint Attack", "description": "Shift + M1 is a clean opener that new players should practice intentionally.", "points": ["Reliable engage tool", "Entry timing drill"] }
         ],
         "overview": [
-          "Cursed Gear combat control quality directly affects progression speed.",
-          "Better mechanics reduce resource waste across long sessions.",
-          "Train consistency first, then optimize damage windows."
+          "Cursed Gear combat consistency improves when keybind intent is clear before fights begin.",
+          "Timing discipline matters more than button spam in both PvE and PvP.",
+          "A short training routine before live runs prevents long wipe streaks."
+        ],
+        "tips": [
+          "Jumping carelessly is dangerous because you lose easy block access while airborne.",
+          "Timing discipline matters more than button spam in both PvE and PvP.",
+          "Ten focused minutes on a training dummy can save hours of failed live fights."
         ]
       },
       "heianRating": {
         "id": "cursed-gear-heian-rating",
         "title": "Cursed Gear Heian Rating & Skill Tree",
-        "subtitle": "Spend HR in a stable order that compounds progression value.",
-        "steps": [
-          "Reserve HR for upgrades that increase repeat run success.",
-          "Prioritize options that improve survival and objective uptime.",
-          "Delay niche spending until baseline route is stable."
+        "subtitle": "Understand HR uses and spend order so each purchase supports progression momentum.",
+        "infoTable": {
+          "columns": ["Use", "Cost / note"],
+          "rows": [
+            ["Skill Upgrade", "200 HR"],
+            ["Customize Character", "200 HR"],
+            ["Curse Color", "800 HR"],
+            ["Clan Reroll", "800 HR"]
+          ]
+        },
+        "cards": [
+          { "icon": "TrendingUp", "title": "Early Value", "description": "Prioritize gameplay-impacting upgrades before cosmetics when progression is the goal.", "points": ["Power first", "Faster run stability"] },
+          { "icon": "RefreshCw", "title": "Reroll Opportunity Cost", "description": "Clan rerolls compete with core upgrades, so each reroll should clear a value threshold.", "points": ["Resource tradeoff clarity", "Fewer wasted HR cycles"] },
+          { "icon": "ArrowRightCircle", "title": "Homepage CTA", "description": "Use this module as the bridge from HR basics into deeper clan and build pages.", "points": ["Clear next-step routing", "Higher page-to-page continuity"] }
         ],
         "overview": [
-          "Cursed Gear HR spending should be milestone-driven.",
-          "A consistent upgrade order prevents resource drift.",
-          "Use HR to stabilize your main build before experimenting."
+          "Cursed Gear HR spending should follow milestone priorities instead of impulse purchases.",
+          "A consistent order prevents currency drift across long sessions.",
+          "Upgrade-first HR decisions usually stabilize routes faster than repeated reroll attempts."
+        ],
+        "tips": [
+          "Use HR where it protects run consistency first, then branch into optional customization.",
+          "Compare every reroll decision against direct combat upgrade value.",
+          "Keep an early priority list so HR spending stays intentional under pressure."
         ]
       },
       "techniqueUnlock": {

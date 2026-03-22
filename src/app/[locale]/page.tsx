@@ -311,6 +311,14 @@ export default function HomePage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
                   {section.cards.map((card: any) => (
                     <article key={card.title} className="p-5 rounded-xl bg-card border border-border hover:border-[hsl(var(--nav-theme)/0.6)] transition-all duration-300">
+                      {card.icon && (
+                        <div className="w-10 h-10 rounded-lg mb-3 bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--gold)/0.35)] flex items-center justify-center">
+                          <DynamicIcon
+                            name={card.icon}
+                            className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                          />
+                        </div>
+                      )}
                       <h3 className="text-lg font-bebas mb-2 text-[hsl(var(--nav-theme-light))]">{card.title}</h3>
                       <p className="text-sm text-muted-foreground mb-3">{card.description}</p>
                       {card.points && card.points.length > 0 && (
