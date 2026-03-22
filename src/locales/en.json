@@ -184,61 +184,105 @@
       "clans": {
         "id": "cursed-gear-clans",
         "title": "Cursed Gear Clans",
-        "subtitle": "Plan rarity goals, reroll usage, and long-term clan value.",
+        "subtitle": "Learn clan rarity logic, Royal bonus impact, and reroll decisions with clear progression context.",
         "cards": [
-          { "title": "Rarity Planning", "description": "Set realistic reroll budgets before chasing top-tier outcomes.", "points": ["Track pull count", "Avoid random spend spikes"] },
-          { "title": "Royal Priorities", "description": "Reserve high-value resources for durable upgrades.", "points": ["Keep key buffers", "Prioritize repeat value"] },
-          { "title": "Team Role Fit", "description": "Clan effect value rises when matched with role and route.", "points": ["Solo survivability", "Squad utility"] }
+          { "title": "Clan Rarity", "description": "Use rarity tiers to decide when to hold, reroll, or invest resources.", "points": ["Common to premium outcomes", "Filter by roster goals"] },
+          { "title": "Royal Buff", "description": "Royal status can grant a highlighted 10% stat scaling bonus that shifts your build route.", "points": ["Check boosted stat first", "Adjust stat allocation path"] },
+          { "title": "Reroll Judgment", "description": "Keep high-value random stat outcomes even when clan name is not your original target.", "points": ["Compare opportunity cost", "Spend rerolls with milestone gating"] }
         ],
         "overview": [
-          "Cursed Gear clan choices should support your build direction.",
-          "Use rerolls with milestone gating, not impulse pulls.",
-          "Clan value is highest when aligned with expedition role."
-        ]
+          "Cursed Gear clans affect scaling and build direction, not only identity.",
+          "Royal outcomes matter because the boosted stat changes your best route.",
+          "Strong clan decisions start from stat value and resource economy, not name preference alone."
+        ],
+        "infoTable": {
+          "columns": ["Question", "Why it matters"],
+          "rows": [
+            ["Did I roll Royal?", "A Royal bonus can justify keeping a clan longer than planned."],
+            ["Which stat got boosted?", "The boosted stat determines whether melee, technique, tank, or speed scaling is strongest."],
+            ["Do I have enough HR for rerolls?", "Rerolls spend key progression currency, so each attempt has a clear opportunity cost."]
+          ]
+        }
       },
       "techniques": {
         "id": "cursed-gear-techniques",
         "title": "Cursed Gear Techniques",
-        "subtitle": "Understand unlock timing, reroll value, and combat synergy.",
+        "subtitle": "Map technique unlock timing, upgrade pillars, and synergy with gear and stat direction.",
         "cards": [
-          { "title": "Unlock Logic", "description": "Map technique unlock steps to grade milestones.", "points": ["Grade gating", "Shard planning"] },
-          { "title": "Combat Fit", "description": "Technique picks should reinforce your chosen gear tempo.", "points": ["Burst windows", "Control windows"] },
-          { "title": "Upgrade Focus", "description": "Upgrade in order that improves consistency first.", "points": ["Potency", "Haste", "Efficiency"] }
+          { "title": "Unlock Timing", "description": "Most players begin serious technique planning around the Grade 4 stage.", "points": ["Milestone-based unlock flow", "Build planning starts early"] },
+          { "title": "Technique Upgrades", "description": "Keep upgrade logic simple: Potency, Haste, and Efficiency drive sustained output.", "points": ["Potency for damage profile", "Haste for cadence", "Efficiency for resource control"] },
+          { "title": "Build Synergy", "description": "Technique choices should reinforce your gear route and combat role.", "points": ["Manipulator favors spacing support", "Bruiser routes favor pressure tools"] }
         ],
         "overview": [
-          "Treat techniques as a progression route, not just a collectible.",
-          "Prioritize combinations that stabilize repeat runs.",
-          "Technique upgrades should match stat allocation strategy."
+          "Cursed Gear techniques are a core power layer stacked on gear and stat choices.",
+          "Technique pages should help players move from definition to practical loadout pairing.",
+          "Stable synergy between gear, stat route, and technique upgrades improves repeat-run performance."
+        ],
+        "tagGrid": [
+          "Best for PvE",
+          "Best for PvP pressure",
+          "Best for mobility",
+          "Best for beginner control",
+          "Best for combo extension",
+          "Best after Grade 4"
         ]
       },
       "stats": {
         "id": "cursed-gear-stats-guide",
         "title": "Cursed Gear Stats Guide",
-        "subtitle": "Use practical stat presets for early progression and team roles.",
+        "subtitle": "Understand all six core stats and use practical allocation paths for melee, technique, and hybrid play.",
+        "statCards": [
+          { "stat": "Durability", "detail": "Increases max HP and gives the safest early progression buffer for new players." },
+          { "stat": "Physicality", "detail": "Boosts melee damage and supports weapon-first route scaling." },
+          { "stat": "Output", "detail": "Improves cursed technique damage and supports ability-centered builds." },
+          { "stat": "Efficiency", "detail": "Improves stamina economy and smooths long combat rotations." },
+          { "stat": "Awareness", "detail": "Strengthens defensive pressure tools such as block value and stamina damage interactions." },
+          { "stat": "Dexterity", "detail": "Increases movement speed and helps mobile routes execute cleaner repositioning." }
+        ],
         "cards": [
-          { "title": "Durability", "description": "Best first investment for clean early progression.", "points": ["Survive mistakes", "Enable more attempts"] },
-          { "title": "Physicality / Output", "description": "Choose based on close-range vs technique damage preference.", "points": ["Melee scaling", "Technique scaling"] },
-          { "title": "Efficiency / Awareness / Dexterity", "description": "Tune these for skill cadence, reading fights, and execution speed.", "points": ["Sustain", "Positioning", "Tempo"] }
+          { "title": "Beginner Safe Path", "description": "Start with Durability, then branch into Physicality or Output based on your gear route.", "points": ["Early survivability baseline", "Route-based branching"] },
+          { "title": "Melee Route", "description": "Prioritize Durability and Physicality, then layer Awareness as mechanics improve.", "points": ["Reliable close-range scaling", "Better pressure control"] },
+          { "title": "Technique Route", "description": "Open with Durability, then scale Output and Efficiency once technique loops are active.", "points": ["Skill damage ramp", "Long-fight consistency"] }
         ],
         "overview": [
-          "Cursed Gear stat spread should follow your route objective.",
-          "Early survivability gives stronger total progression value.",
-          "Use presets, then refine around your best-performing runs."
+          "Cursed Gear stat priorities should match the route you are actively playing.",
+          "Durability-first progression creates a stronger learning curve for early combat timing.",
+          "Preset paths are the fastest way to avoid random point spread mistakes."
+        ],
+        "tips": [
+          "Avoid glass-cannon spreads before your parry and extraction consistency is stable.",
+          "Do not overvalue speed before survivability and baseline combat control.",
+          "Keep Awareness in your long-term plan because it supports defensive and pressure interactions."
         ]
       },
       "builds": {
         "id": "cursed-gear-best-builds",
         "title": "Cursed Gear Best Builds",
-        "subtitle": "Starter-ready build paths for PvE tempo and safer extraction.",
+        "subtitle": "Use practical starter builds to choose a clear route instead of spreading points at random.",
         "cards": [
-          { "title": "Balanced Expedition Build", "description": "Durability-first setup with stable damage uptime.", "points": ["Safe opening", "Reliable evac"] },
-          { "title": "Pressure Build", "description": "Faster engagements with controlled risk windows.", "points": ["Quick fights", "Cooldown discipline"] },
-          { "title": "Technique-Centric Build", "description": "Resource-efficient setup centered on cursed technique loops.", "points": ["Skill cadence", "Energy management"] }
+          { "title": "Safe Executioner Build", "description": "Durability first and Physicality second for reliable melee progression.", "points": ["Strong first-run stability", "Clean close-range learning"] },
+          { "title": "Projector Pressure Build", "description": "Durability plus Dexterity or Awareness for faster tempo and gap-closing pressure.", "points": ["Aggressive route control", "High execution payoff"] },
+          { "title": "Manipulator Technique Build", "description": "Durability early, then Output and Efficiency once techniques drive damage.", "points": ["Ranged pressure support", "Resource-aware scaling"] },
+          { "title": "Constructor Hybrid Build", "description": "Balanced Physicality and Output with enough Durability to absorb mistakes.", "points": ["Flexible role coverage", "Smooth route pivots"] }
         ],
         "overview": [
-          "A valid Cursed Gear build should define both engage and disengage plans.",
-          "Build value depends on extraction consistency, not single run highlights.",
-          "Compare builds by completion consistency and Time secured."
+          "A strong Cursed Gear build defines engage timing, disengage timing, and extraction discipline.",
+          "Starter routes should prioritize consistency over highlight-only performance.",
+          "Compare builds by repeat completion quality and total Time secured."
+        ],
+        "comparisonTable": {
+          "columns": ["Build", "Best For", "Core Stats", "Main Risk"],
+          "rows": [
+            ["Safe Executioner", "First-run melee progression", "Durability + Physicality", "Can feel slower than high-tempo options."],
+            ["Projector Pressure", "Aggressive tempo players", "Durability + Dexterity/Awareness", "Punishes mistimed entries."],
+            ["Manipulator Technique", "Ranged and ability routes", "Durability + Output + Efficiency", "Needs strong spacing discipline."],
+            ["Constructor Hybrid", "Players who want flexibility", "Durability + Physicality + Output", "Can lose focus if overbalanced."]
+          ]
+        },
+        "tips": [
+          "Do not copy flashy PvP setups before your core defense timings are stable.",
+          "The best beginner build is the one that survives while you learn systems.",
+          "As public data grows, this section can expand into a fully filterable build planner."
         ]
       },
       "gradeProgression": {

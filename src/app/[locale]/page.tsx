@@ -328,6 +328,106 @@ export default function HomePage() {
                 </div>
               )}
 
+              {section.statCards && section.statCards.length > 0 && (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+                  {section.statCards.map((item: any) => (
+                    <article key={item.stat} className="p-5 rounded-xl bg-card border border-border hover:border-[hsl(var(--gold)/0.5)] transition-all duration-300">
+                      <h3 className="text-lg font-bebas mb-2 text-[hsl(var(--nav-theme-light))]">{item.stat}</h3>
+                      <p className="text-sm text-muted-foreground">{item.detail}</p>
+                    </article>
+                  ))}
+                </div>
+              )}
+
+              {section.tagGrid && section.tagGrid.length > 0 && (
+                <div className="mb-8">
+                  <div className="flex flex-wrap gap-2">
+                    {section.tagGrid.map((tag: string) => (
+                      <span
+                        key={tag}
+                        className="px-3 py-2 rounded-full text-sm border border-[hsl(var(--gold)/0.35)] bg-[hsl(var(--nav-theme)/0.08)] text-[hsl(var(--nav-theme-light))]"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {section.infoTable && section.infoTable.columns && section.infoTable.rows && (
+                <div className="mb-8 rounded-xl border border-border bg-card overflow-hidden">
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full text-sm">
+                      <thead className="bg-[hsl(var(--nav-theme)/0.12)]">
+                        <tr>
+                          {section.infoTable.columns.map((column: string) => (
+                            <th
+                              key={column}
+                              className="px-4 py-3 text-left font-semibold text-[hsl(var(--nav-theme-light))]"
+                            >
+                              {column}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.infoTable.rows.map((row: string[], rowIndex: number) => (
+                          <tr key={`${row[0]}-${rowIndex}`} className="border-t border-border/70">
+                            {row.map((cell: string, cellIndex: number) => (
+                              <td key={`${cell}-${cellIndex}`} className="px-4 py-3 align-top">
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+
+              {section.comparisonTable && section.comparisonTable.columns && section.comparisonTable.rows && (
+                <div className="mb-8 rounded-xl border-2 border-[hsl(var(--gold)/0.35)] bg-card overflow-hidden">
+                  <div className="overflow-x-auto">
+                    <table className="min-w-full text-sm">
+                      <thead className="bg-[hsl(var(--gold)/0.12)]">
+                        <tr>
+                          {section.comparisonTable.columns.map((column: string) => (
+                            <th key={column} className="px-4 py-3 text-left font-semibold text-[hsl(var(--nav-theme-light))]">
+                              {column}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.comparisonTable.rows.map((row: string[], rowIndex: number) => (
+                          <tr key={`${row[0]}-${rowIndex}`} className="border-t border-border/70">
+                            {row.map((cell: string, cellIndex: number) => (
+                              <td key={`${rowIndex}-${cellIndex}`} className="px-4 py-3 align-top">
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              )}
+
+              {section.tips && section.tips.length > 0 && (
+                <div className="p-5 rounded-xl border border-[hsl(var(--gold)/0.35)] bg-[hsl(var(--gold)/0.06)] mb-8">
+                  <ul className="space-y-2">
+                    {section.tips.map((tip: string) => (
+                      <li key={tip} className="text-sm flex items-start gap-2">
+                        <Check className="w-4 h-4 mt-0.5 text-[hsl(var(--gold))]" />
+                        <span>{tip}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
               {section.steps && section.steps.length > 0 && (
                 <ol className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-8">
                   {section.steps.map((step: string, stepIndex: number) => (
