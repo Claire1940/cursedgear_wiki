@@ -1,5 +1,6 @@
 'use client'
 
+import { setRequestLocale } from 'next-intl/server'
 import { useEffect, useState, Suspense, lazy } from 'react'
 import { ArrowRight, Check, Copy, ExternalLink, Sparkles } from 'lucide-react'
 import { useMessages } from 'next-intl'
